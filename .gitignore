@@ -1,0 +1,11 @@
+local-defaults.json
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+output/
+outputs/
+*.log
+*.render.json
+*.mix.json

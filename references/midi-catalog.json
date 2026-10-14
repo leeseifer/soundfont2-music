@@ -1,0 +1,54 @@
+{
+  "rights": {
+    "status": "original_example_mit",
+    "description": "Original Launch Day composition and MIDI supplied under the repository MIT license."
+  },
+  "theme_aliases": {
+    "excited": [
+      "upbeat",
+      "energetic"
+    ],
+    "exciting": [
+      "upbeat",
+      "energetic"
+    ],
+    "celebration": [
+      "upbeat"
+    ]
+  },
+  "theme_defaults": {
+    "upbeat": [
+      "launch-day"
+    ]
+  },
+  "entries": [
+    {
+      "id": "launch-day",
+      "title": "Launch Day",
+      "path": "examples/launch-day/launch-day.mid",
+      "themes": [
+        "upbeat",
+        "energetic",
+        "excited",
+        "celebration",
+        "pop",
+        "rock"
+      ],
+      "reference_use": "Returning piano hook, guitar replies, structured intensity, grouped strums and a final tonic.",
+      "analysis": {
+        "bpm": 128,
+        "time_signature": "4/4",
+        "quarter_beats": 128,
+        "seconds": 60,
+        "key": "D major",
+        "channels_zero_based": [
+          0,
+          1,
+          2,
+          3,
+          9
+        ]
+      }
+    }
+  ]
+}

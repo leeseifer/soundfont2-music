@@ -1,0 +1,17 @@
+{
+  "soundfont": "assets/soundfonts/generaluser-gs/GeneralUser-GS.sf2",
+  "soundfonts": {
+    "piano": {
+      "name": "GeneralUser GS 2.0.3",
+      "path": "assets/soundfonts/generaluser-gs/GeneralUser-GS.sf2"
+    },
+    "band": {
+      "name": "GeneralUser GS 2.0.3",
+      "path": "assets/soundfonts/generaluser-gs/GeneralUser-GS.sf2"
+    }
+  },
+  "midi_references": {
+    "catalog": "references/midi-catalog.json",
+    "mode": "theme-matched-optional"
+  }
+}

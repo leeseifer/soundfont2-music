@@ -1,0 +1,6 @@
+* text=auto
+*.sf2 -text
+*.mid -text
+*.wav -text
+# Preserve upstream asset bytes, including CRLF and legacy text encoding.
+assets/soundfonts/generaluser-gs/* -text -whitespace

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SoundFont 2 Music"
+  short_description: "Compose piano, guitar and drum themes; play MIDI"
+  default_prompt: "Use $soundfont2-music to create and play a gentle 20-second piano theme with my default SoundFont."

@@ -1,0 +1,33 @@
+{
+  "title": "Launch Day \u2014 Performance Revision",
+  "bpm": 128,
+  "time_signature": "4/4",
+  "key": "D major",
+  "audio": {
+    "seconds": 60.0,
+    "sample_rate": 44100,
+    "channels": 2,
+    "peak_dbfs": -1.56,
+    "rms_dbfs": -21.51,
+    "clipped_samples": 0
+  },
+  "loudness": {
+    "input_i": -18.78,
+    "input_tp": -1.5,
+    "input_lra": 3.1
+  },
+  "synth_warnings": [],
+  "note_count": 1576,
+  "channels_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    9
+  ],
+  "guitar_annotation_validation": "passed",
+  "listening_review": "pending: no audio audition tool available",
+  "wav_sha256": "60c25620c5cf97cc456a507e68351d01073971289c942e8029df2d665334c738",
+  "synthesis": "FluidSynth 2.6.1; GeneralUser GS 2.0.3; profile generaluser; interpolation 7",
+  "notes": "Reverb is synthesized per stem using the same profile; no recorded room impulse is used."
+}

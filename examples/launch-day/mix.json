@@ -1,0 +1,61 @@
+{
+  "tracks": [
+    {
+      "path": "wet-stems/channel-01.wav",
+      "gain_db": 9.2,
+      "highpass_hz": 90,
+      "eq": [
+        {
+          "hz": 280,
+          "gain_db": -1.2,
+          "q": 0.8
+        }
+      ]
+    },
+    {
+      "path": "wet-stems/channel-02.wav",
+      "gain_db": 9.4,
+      "highpass_hz": 32,
+      "eq": []
+    },
+    {
+      "path": "wet-stems/channel-03.wav",
+      "gain_db": 7.3,
+      "highpass_hz": 100,
+      "eq": [
+        {
+          "hz": 250,
+          "gain_db": -1.6,
+          "q": 0.9
+        }
+      ]
+    },
+    {
+      "path": "wet-stems/channel-04.wav",
+      "gain_db": 8.6,
+      "highpass_hz": 120,
+      "eq": [
+        {
+          "hz": 2300,
+          "gain_db": -0.8,
+          "q": 1.1
+        }
+      ]
+    },
+    {
+      "path": "wet-stems/channel-10.wav",
+      "gain_db": 4.6,
+      "highpass_hz": 30,
+      "eq": [
+        {
+          "hz": 320,
+          "gain_db": -1.0,
+          "q": 0.9
+        }
+      ]
+    }
+  ],
+  "duration_seconds": 60,
+  "fade_out_seconds": 0.75,
+  "peak_dbfs": -1.5
+}

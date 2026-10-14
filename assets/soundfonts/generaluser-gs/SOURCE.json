@@ -1,0 +1,28 @@
+{
+  "name": "GeneralUser GS",
+  "version": "2.0.3",
+  "author": "S. Christian Collins",
+  "homepage": "https://www.schristiancollins.com/generaluser",
+  "repository": "https://github.com/mrbumpy409/GeneralUser-GS",
+  "commit": "684543d5e5efaef08d02be50dcda8d552478fa60",
+  "downloaded_utc": "2026-10-13T16:21:26.711853+00:00",
+  "unmodified": true,
+  "license": "LICENSE.txt",
+  "files": {
+    "GeneralUser-GS.sf2": {
+      "bytes": 32319396,
+      "sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+      "url": "https://raw.githubusercontent.com/mrbumpy409/GeneralUser-GS/684543d5e5efaef08d02be50dcda8d552478fa60/GeneralUser-GS.sf2"
+    },
+    "LICENSE.txt": {
+      "bytes": 2317,
+      "sha256": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be",
+      "url": "https://raw.githubusercontent.com/mrbumpy409/GeneralUser-GS/684543d5e5efaef08d02be50dcda8d552478fa60/documentation/LICENSE.txt"
+    },
+    "GeneralUser-GS.ins": {
+      "bytes": 18519,
+      "sha256": "72b9e37e1c7a2b32f92abe1a0f86b311e3a9c43535a9d4f49dd2a314ba87e7c5",
+      "url": "https://raw.githubusercontent.com/mrbumpy409/GeneralUser-GS/684543d5e5efaef08d02be50dcda8d552478fa60/support/GeneralUser%20GS.ins"
+    }
+  }
+}
