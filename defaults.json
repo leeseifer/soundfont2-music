@@ -12,6 +12,16 @@
   },
   "midi_references": {
     "catalog": "references/midi-catalog.json",
-    "mode": "theme-matched-optional"
+    "mode": "theme-matched-default",
+    "rights_status": "per_entry",
+    "rights_filter": "source-documented"
+  },
+  "sfz_libraries": {
+    "orchestra": {
+      "name": "VSCO 2 Community Edition \u2014 curated theatre orchestra",
+      "path": "assets/sfz/vsco-2-ce",
+      "catalog": "references/orchestra-catalog.json",
+      "license": "CC0-1.0"
+    }
   }
 }

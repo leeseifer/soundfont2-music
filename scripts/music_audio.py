@@ -230,11 +230,39 @@ def compare(args):
     core.emit(report)
 
 
+def instrument_catalog(library="orchestra"):
+    libraries = core.defaults().get("sfz_libraries", {})
+    if library not in libraries:
+        raise ValueError(f"Unknown SFZ library: {library}")
+    path = core.configured_path(libraries[library]["catalog"])
+    return json.loads(path.read_text())
+
+
+def installed_instrument(instrument, library="orchestra"):
+    entry = next((e for e in instrument_catalog(library)["entries"] if e["id"] == instrument), None)
+    if entry is None:
+        raise ValueError(f"Unknown instrument '{instrument}'; use instruments to list installed IDs")
+    if entry.get("qualification", {}).get("status") != "technical_pass":
+        raise ValueError(f"Instrument '{instrument}' has not passed technical qualification")
+    return core.source(core.configured_path(entry["path"]))
+
+
+def instruments(args):
+    data = instrument_catalog(args.library)
+    entries = [e for e in data["entries"] if not args.family or e["family"] == args.family]
+    core.emit({"library": data["library"], "license": data["license"], "family": args.family,
+               "count": len(entries), "instruments": [{key: e[key] for key in
+               ("id", "family", "instrument", "articulation", "note_range", "qualification")}
+               for e in entries]})
+
+
 def render_sfz(args):
-    exe = args.renderer or shutil.which('sfizz_render') or shutil.which('sfizz-render')
+    exe = args.renderer or core.sfz_renderer()
     if not exe:
         raise ValueError('Optional SFZ renderer unavailable. Install sfizz with its offline renderer or pass --renderer. SF2 rendering remains available.')
-    sfz, original = core.source(args.sfz), core.source(args.midi)
+    instrument = getattr(args, "instrument", None)
+    sfz = installed_instrument(instrument, getattr(args, "library", "orchestra")) if instrument else core.source(args.sfz)
+    original = core.source(args.midi)
     midi = core.load_midi(original)
     channels = core.midi_summary(midi)['channels_zero_based']
     if args.channel is not None:
@@ -275,6 +303,10 @@ def render_sfz(args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command',required=True)
+    p = sub.add_parser('instruments', help='List qualified installed SFZ instruments')
+    p.add_argument('--library', default='orchestra')
+    p.add_argument('--family', choices=('strings','woodwinds','brass','plucked','keyboards','mallets','percussion'))
+    p.set_defaults(func=instruments)
     p = sub.add_parser('stems')
     p.add_argument('--midi',required=True)
     p.add_argument('--out-dir',required=True)
@@ -299,7 +331,10 @@ def main():
     p.add_argument('--peak',type=float,default=-1.5)
     p.set_defaults(func=compare)
     p = sub.add_parser('render-sfz')
-    p.add_argument('--sfz',required=True)
+    choice = p.add_mutually_exclusive_group(required=True)
+    choice.add_argument('--sfz')
+    choice.add_argument('--instrument', help='Installed SFZ ID from the instruments command')
+    p.add_argument('--library', default='orchestra')
     p.add_argument('--midi',required=True)
     p.add_argument('--wav',required=True)
     p.add_argument('--channel',type=int,choices=range(16))

@@ -4,6 +4,7 @@ import argparse
 from array import array
 import json
 import math
+import os
 from pathlib import Path
 import re
 import shutil
@@ -47,6 +48,15 @@ def configured_path(path):
     """Settings paths are relative to the skill; explicit CLI paths use cwd."""
     result = Path(path).expanduser()
     return result if result.is_absolute() else ROOT / result
+
+
+def sfz_renderer():
+    """Use a configured local renderer, otherwise discover one on PATH."""
+    configured = defaults().get("sfz_renderer")
+    if configured:
+        path = configured_path(configured)
+        return str(path.resolve()) if path.is_file() and os.access(path, os.X_OK) else None
+    return shutil.which("sfizz_render") or shutil.which("sfizz-render")
 
 
 def source(path):
@@ -435,7 +445,7 @@ def main():
         sf = str(configured_path(sf).resolve()) if sf else None
         emit({"python": sys.executable, "mido": importlib.util.find_spec("mido") is not None,
               "fluidsynth": shutil.which("fluidsynth"), "ffmpeg": shutil.which("ffmpeg"),
-              "sfizz_renderer": shutil.which('sfizz_render') or shutil.which('sfizz-render'),
+              "sfizz_renderer": sfz_renderer(),
               "speaker_player": shutil.which("afplay") or shutil.which("ffplay"),
               "default_soundfont": sf, "default_exists": bool(sf and Path(sf).is_file())})
     elif args.command == "fonts":

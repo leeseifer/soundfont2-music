@@ -4,3 +4,5 @@
 *.wav -text
 # Preserve upstream asset bytes, including CRLF and legacy text encoding.
 assets/soundfonts/generaluser-gs/* -text -whitespace
+assets/sfz/vsco-2-ce/** -text -whitespace
+assets/midi/mutopia/** -text -whitespace

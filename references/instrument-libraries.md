@@ -1,15 +1,19 @@
 # Optional instrument libraries and SFZ
 
-GeneralUser GS is the bundled default for piano and band arrangements; local settings may override it. Improve performance before attributing all limitations to the bank. Larger file size alone does not establish quality.
+The bundled GeneralUser GS supplies both the piano and band aliases; private settings can override them. Improve performance before attributing all limitations to the bank. Larger file size alone does not establish quality.
+
+For installed orchestral instruments, use [theatre-orchestra.md](theatre-orchestra.md) and [orchestra-catalog.json](orchestra-catalog.json). The repository supplies curated VSCO 2 CE mappings; download their samples with `scripts/fetch_assets.py --library orchestra` and install a compatible sfizz renderer separately. All 59 patches passed technical qualification; listening review remains pending. Newly acquired musical assets must be public domain or CC0. The older research candidates below are not automatically approved under this requirement.
 
 For a candidate instrument, record source/version/license, supported note range, velocity layers, repeated-note variants, release samples, articulation mappings, controllers, and the engine actually tested. Use a repeated-note phrase, a soft-to-loud phrase, a legato/strum phrase where applicable, and a release/pedal test. Unsupported mappings and absent sample files are blockers for claiming that capability. Do not describe generic CC/bend approximations as sampled articulations.
 
 ## SFZ renderer
 
-`sf2_music.py doctor` reports whether `sfizz_render` or `sfizz-render` is installed. It is optional and independent of FluidSynth. Install/build it only when this workflow is needed; [sfizz build documentation](https://www.sfz.tools/sfizz/development/build/) describes the offline renderer (`SFIZZ_RENDER`). This skill does not automatically install it or download libraries.
+`sf2_music.py doctor` resolves `sfz_renderer` from local defaults, otherwise searches for `sfizz_render` or `sfizz-render` on PATH. It is independent of FluidSynth. [sfizz build documentation](https://www.sfz.tools/sfizz/development/build/) describes the offline renderer (`SFIZZ_RENDER`). Qualification used sfizz 1.2.3; no plugin host is required.
 
 ```bash
 "$SF2_PY" "$SF2_AUDIO" render-sfz --sfz "/library/instrument.sfz" --midi "/output/theme.mid" --channel 0 --wav "/output/piano-sfz.wav"
+"$SF2_PY" "$SF2_AUDIO" instruments --family strings
+"$SF2_PY" "$SF2_AUDIO" render-sfz --instrument ViolinEnsSusVib --midi "/output/violin.mid" --wav "/output/violin.wav"
 ```
 
 Use one SFZ instrument per render. For multi-instrument MIDI, `--channel` is required (0–15); extraction preserves timing/controllers. For a single-channel file it can be omitted. `--renderer /absolute/path/sfizz_render` chooses an installed renderer explicitly. `--rate` supports 44100 or 48000. SFZ scores may be authored as MIDI directly; the SF2 score compiler still validates bank/program assignments against an SF2 and is not a universal SFZ articulation compiler.

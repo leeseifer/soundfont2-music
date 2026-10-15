@@ -176,7 +176,7 @@ class MidiTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'SysEx'): audio.selected_channel(midi,0)
 
     def test_missing_sfz_dependency_is_explicit(self):
-        with patch('music_audio.shutil.which',return_value=None):
+        with patch.object(core,'sfz_renderer',return_value=None):
             with self.assertRaisesRegex(ValueError,'Optional SFZ renderer unavailable'):
                 audio.render_sfz(argparse.Namespace(renderer=None))
 

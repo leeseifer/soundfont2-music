@@ -9,3 +9,5 @@ outputs/
 *.log
 *.render.json
 *.mix.json
+assets/sfz/vsco-2-ce/**/*.wav
+*.partial

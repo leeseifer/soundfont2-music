@@ -26,7 +26,7 @@ def catalog():
     return json.loads((path if path.is_absolute() else ROOT / path).read_text())
 
 
-def select_references(data, theme, limit):
+def select_references(data, theme, limit, rights_filter="public-domain"):
     query = tokens(theme or "")
     expanded = set(query)
     for term in query:
@@ -37,6 +37,11 @@ def select_references(data, theme, limit):
             ranks[ref_id] = max(ranks.get(ref_id, 0), max(1, 10 - index * 2))
     hits = []
     for entry in data["entries"]:
+        rights = entry.get("rights_status", "unknown")
+        if rights not in {"public_domain_user_declared", "public_domain_source_documented", "CC0-1.0"}:
+            continue
+        if rights_filter == "source-documented" and rights == "public_domain_user_declared":
+            continue
         themes = set(entry["themes"])
         score = 3 * len(expanded & themes) + len(query & tokens(entry["title"]))
         score += len(query & tokens(entry["reference_use"])) + ranks.get(entry["id"], 0)
@@ -46,10 +51,13 @@ def select_references(data, theme, limit):
             continue
         hits.append({"id": entry["id"], "title": entry["title"], "themes": entry["themes"],
                      "reference_use": entry["reference_use"], "path": str((ROOT / entry["path"]).resolve()),
-                     "score": score, "analysis": entry["analysis"]})
+                     "score": score, "analysis": entry["analysis"], "rights_status": rights,
+                     "source_url": entry.get("source_url"),
+                     "suggested_passages": entry.get("suggested_passages", []),
+                     "quality": entry.get("quality", {})})
     hits.sort(key=lambda item: (-item["score"], item["id"]))
     return {"query": theme, "match_count": len(hits), "returned": min(limit, len(hits)),
-            "rights_status": data["rights"]["status"], "matches": hits[:limit]}
+            "rights_filter": rights_filter, "rights_status": "see_each_match", "matches": hits[:limit]}
 
 
 def note_name(note):
@@ -131,6 +139,7 @@ def phrase(data, ref_id, start, length, limit, track_filter=None):
             metadata.append({"beat": round(beat - start, 6), **event})
     notes.sort(key=lambda item: (item["beat"], item["track"], item["pitch"]))
     return {"id": entry["id"], "title": entry["title"], "path": str(path),
+            "rights_status": entry.get("rights_status", "unknown"), "source_url": entry.get("source_url"),
             "start_quarter_beat": start, "requested_quarter_beats": length,
             "available_quarter_beats": round(min(length, last_tick / ppq - start), 6),
             "active_metadata_at_start": active, "metadata_in_window": metadata,
@@ -146,6 +155,9 @@ def main():
     sub = parser.add_subparsers(dest="command", required=True)
     listing = sub.add_parser("list", help="Find theme matches; omit theme to browse the catalog")
     listing.add_argument("--theme")
+    listing.add_argument("--rights", choices=("public-domain", "source-documented"),
+                         default=defaults().get("midi_references", {}).get("rights_filter", "public-domain"),
+                         help="Source-documented excludes legacy files supported only by the user's declaration")
     listing.add_argument("--limit", type=int, default=5)
     passage = sub.add_parser("phrase", help="Read an actual note passage without changing the MIDI")
     passage.add_argument("--id", required=True)
@@ -157,7 +169,7 @@ def main():
     if not 1 <= args.limit <= 2000:
         parser.error("limit must be between 1 and 2000")
     data = catalog()
-    result = select_references(data, args.theme, args.limit) if args.command == "list" else phrase(
+    result = select_references(data, args.theme, args.limit, args.rights) if args.command == "list" else phrase(
         data, args.id, args.start_beat, args.beats, args.limit, args.track)
     print(json.dumps(result, indent=2, ensure_ascii=False))
 

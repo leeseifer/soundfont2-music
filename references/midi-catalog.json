@@ -1,7 +1,16 @@
 {
+  "schema_version": 2,
+  "collection": "23 source-documented public-domain MIDI references and the original MIT Launch Day example",
   "rights": {
-    "status": "original_example_mit",
-    "description": "Original Launch Day composition and MIDI supplied under the repository MIT license."
+    "status": "per_entry",
+    "default_filter": "source-documented",
+    "new_import_policy": "Only explicit public-domain or CC0 editions are admitted as default music references.",
+    "original_example": "Launch Day remains an MIT-licensed original example, accessible by explicit ID and excluded from public-domain reference searches."
+  },
+  "classification": {
+    "basis": "Curated theme suggestions based on source labels and parsed MIDI structure; not a listening review.",
+    "titles": "Names identify the documented Mutopia edition and selected movement or arrangement.",
+    "key_signatures": "Raw MIDI metadata, not a verified harmonic analysis."
   },
   "theme_aliases": {
     "excited": [
@@ -14,14 +23,3524 @@
     ],
     "celebration": [
       "upbeat"
+    ],
+    "sleep": [
+      "calm",
+      "dreamy",
+      "tender"
+    ],
+    "sleepy": [
+      "calm",
+      "dreamy",
+      "lullaby"
+    ],
+    "relaxing": [
+      "calm",
+      "gentle"
+    ],
+    "relax": [
+      "calm",
+      "gentle"
+    ],
+    "peace": [
+      "peaceful",
+      "calm"
+    ],
+    "happy": [
+      "cheerful",
+      "playful"
+    ],
+    "sad": [
+      "mourning",
+      "wistful"
+    ],
+    "rainy": [
+      "rain",
+      "reflective"
+    ],
+    "vintage": [
+      "retro",
+      "ragtime"
+    ],
+    "epic": [
+      "heroic",
+      "dramatic"
+    ],
+    "battle": [
+      "action",
+      "intense"
+    ],
+    "romance": [
+      "romantic",
+      "tender"
+    ],
+    "dream": [
+      "dreamy"
+    ],
+    "cafe": [
+      "ragtime",
+      "gentle"
+    ],
+    "wedding": [
+      "romantic",
+      "elegant"
+    ],
+    "theater": [
+      "theatre",
+      "overture"
+    ],
+    "theatre": [
+      "overture",
+      "dramatic",
+      "strings"
+    ],
+    "magical": [
+      "fantasy",
+      "magic"
+    ],
+    "scary": [
+      "suspense",
+      "dark"
+    ],
+    "comedy": [
+      "comic",
+      "playful"
+    ],
+    "victory": [
+      "triumphant",
+      "finale"
+    ],
+    "royal": [
+      "ceremonial",
+      "stately"
+    ],
+    "christmas": [
+      "winter",
+      "festive"
+    ],
+    "ballet": [
+      "dance",
+      "ballet"
     ]
   },
   "theme_defaults": {
-    "upbeat": [
-      "launch-day"
+    "calm": [
+      "mp-38",
+      "mp-3",
+      "mp-1171"
+    ],
+    "dreamy": [
+      "mp-38",
+      "mp-3"
+    ],
+    "forest": [
+      "mp-803",
+      "mp-29"
+    ],
+    "nature": [
+      "mp-803",
+      "mp-29"
+    ],
+    "pastoral": [
+      "mp-803"
+    ],
+    "rain": [
+      "mp-38",
+      "mp-1171"
+    ],
+    "romantic": [
+      "mp-911",
+      "mp-944",
+      "mp-3"
+    ],
+    "playful": [
+      "mp-1806",
+      "mp-281",
+      "mp-1398"
+    ],
+    "elegant": [
+      "mp-281",
+      "mp-944"
+    ],
+    "waltz": [
+      "mp-281",
+      "mp-38"
+    ],
+    "dark": [
+      "mp-1888",
+      "mp-247"
+    ],
+    "dramatic": [
+      "mp-1888",
+      "mp-2014"
+    ],
+    "action": [
+      "mp-1888",
+      "mp-2014"
+    ],
+    "focus": [
+      "mp-38",
+      "mp-3"
+    ],
+    "lullaby": [
+      "mp-38",
+      "mp-2080"
+    ],
+    "march": [
+      "mp-2157",
+      "mp-1806",
+      "mp-1410"
+    ],
+    "water": [
+      "mp-38",
+      "mp-911"
+    ],
+    "fantasy": [
+      "mp-248-allegro",
+      "mp-2014",
+      "mp-1888"
+    ],
+    "suspense": [
+      "mp-1888",
+      "mp-2014"
+    ],
+    "mourning": [
+      "mp-247"
+    ],
+    "ceremonial": [
+      "mp-248-adagio",
+      "mp-1410"
+    ],
+    "triumphant": [
+      "mp-626",
+      "mp-781"
+    ],
+    "celebration": [
+      "mp-1398",
+      "mp-781"
+    ],
+    "theatre": [
+      "mp-248-allegro",
+      "mp-281",
+      "mp-247"
+    ],
+    "overture": [
+      "mp-248-adagio",
+      "mp-248-allegro"
+    ],
+    "winter": [
+      "mp-1171"
+    ],
+    "comic": [
+      "mp-1806",
+      "mp-281"
+    ],
+    "dance": [
+      "mp-281",
+      "mp-896",
+      "mp-1398"
+    ],
+    "nostalgic": [
+      "mp-2080",
+      "mp-1171"
     ]
   },
   "entries": [
+    {
+      "id": "mp-248-adagio",
+      "title": "Mozart — The Magic Flute overture: opening Adagio",
+      "source_title": "Die Zauberflöte (The Magic Flute) - Ouverture",
+      "composer": "W. A. Mozart (1756–1791)",
+      "source_filename": "adagioIscore.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=248",
+      "download_url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-00-overture/magicflute-00-overture-mids.zip",
+      "archive_member": "adagioIscore.mid",
+      "path": "assets/midi/mutopia/248/adagioIscore.mid",
+      "sha256": "8289ca1ba10aa0f9610c15c5c0f5e4b8ec9e5bc8a35d236d6fc74506e32afacf",
+      "bytes": 4340,
+      "themes": [
+        "ceremonial",
+        "solemn",
+        "magic",
+        "fantasy",
+        "overture",
+        "theatre"
+      ],
+      "reference_use": "Separated orchestral chords, sustained responses and dramatic silence.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/248/source-page.html",
+        "snapshot_sha256": "a55ea3c8617bf2845543b81a959863423aac740befe0d60f497a2fba073897b2"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 48.0,
+        "length_quarter_beats": 60.0,
+        "note_count": 352,
+        "pitch_range": [
+          32,
+          87
+        ],
+        "velocity_range": [
+          38,
+          127
+        ],
+        "tempo_bpm_range": [
+          75.0,
+          75.0
+        ],
+        "key_signature_metadata": [
+          "Eb",
+          "F"
+        ],
+        "time_signatures": [
+          "2/2"
+        ],
+        "programs": [
+          {
+            "channel": 0,
+            "program": 73
+          },
+          {
+            "channel": 1,
+            "program": 68
+          },
+          {
+            "channel": 2,
+            "program": 71
+          },
+          {
+            "channel": 3,
+            "program": 70
+          },
+          {
+            "channel": 4,
+            "program": 60
+          },
+          {
+            "channel": 5,
+            "program": 56
+          },
+          {
+            "channel": 6,
+            "program": 57
+          },
+          {
+            "channel": 7,
+            "program": 57
+          },
+          {
+            "channel": 8,
+            "program": 47
+          },
+          {
+            "channel": 10,
+            "program": 40
+          },
+          {
+            "channel": 11,
+            "program": 40
+          },
+          {
+            "channel": 12,
+            "program": 41
+          },
+          {
+            "channel": 13,
+            "program": 42
+          },
+          {
+            "channel": 14,
+            "program": 43
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "flauti:shared",
+            "notes": 13,
+            "pitch_range": [
+              73,
+              82
+            ]
+          },
+          {
+            "index": 2,
+            "name": "oboi:shared",
+            "notes": 17,
+            "pitch_range": [
+              73,
+              82
+            ]
+          },
+          {
+            "index": 3,
+            "name": "clarinetti:shared",
+            "notes": 14,
+            "pitch_range": [
+              79,
+              87
+            ]
+          },
+          {
+            "index": 4,
+            "name": "fagotti:shared",
+            "notes": 35,
+            "pitch_range": [
+              44,
+              60
+            ]
+          },
+          {
+            "index": 5,
+            "name": "corni:shared",
+            "notes": 17,
+            "pitch_range": [
+              63,
+              75
+            ]
+          },
+          {
+            "index": 6,
+            "name": "trombe:shared",
+            "notes": 14,
+            "pitch_range": [
+              63,
+              75
+            ]
+          },
+          {
+            "index": 7,
+            "name": "trombone:one",
+            "notes": 26,
+            "pitch_range": [
+              55,
+              74
+            ]
+          },
+          {
+            "index": 8,
+            "name": "trombone:",
+            "notes": 13,
+            "pitch_range": [
+              43,
+              57
+            ]
+          },
+          {
+            "index": 9,
+            "name": "timpani:",
+            "notes": 7,
+            "pitch_range": [
+              52,
+              52
+            ]
+          },
+          {
+            "index": 10,
+            "name": "violino1:",
+            "notes": 54,
+            "pitch_range": [
+              55,
+              82
+            ]
+          },
+          {
+            "index": 11,
+            "name": "violino2:",
+            "notes": 52,
+            "pitch_range": [
+              55,
+              79
+            ]
+          },
+          {
+            "index": 12,
+            "name": "viola:",
+            "notes": 37,
+            "pitch_range": [
+              51,
+              72
+            ]
+          },
+          {
+            "index": 13,
+            "name": "violoncello:",
+            "notes": 37,
+            "pitch_range": [
+              44,
+              60
+            ]
+          },
+          {
+            "index": 14,
+            "name": "contrabasso:",
+            "notes": 16,
+            "pitch_range": [
+              32,
+              48
+            ]
+          }
+        ],
+        "metadata_event_count": 59
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Separated orchestral chords, sustained responses and dramatic silence.",
+          "snapshot": "assets/midi/mutopia/248/mp-248-adagio-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-248-allegro",
+      "title": "Mozart — The Magic Flute overture: first Allegro",
+      "source_title": "Die Zauberflöte (The Magic Flute) - Ouverture",
+      "composer": "W. A. Mozart (1756–1791)",
+      "source_filename": "allegroIscore.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=248",
+      "download_url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-00-overture/magicflute-00-overture-mids.zip",
+      "archive_member": "allegroIscore.mid",
+      "path": "assets/midi/mutopia/248/allegroIscore.mid",
+      "sha256": "e2d389d78722bc73b1b67f5f8b43fb1f7f06821fb9e1f7cc3833730bb367dbbf",
+      "bytes": 33225,
+      "themes": [
+        "fantasy",
+        "theatre",
+        "playful",
+        "overture",
+        "classical"
+      ],
+      "reference_use": "Short imitative entries, orchestral dialogue and lively phrase transitions.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/248/source-page.html",
+        "snapshot_sha256": "a55ea3c8617bf2845543b81a959863423aac740befe0d60f497a2fba073897b2"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 129.6,
+        "length_quarter_beats": 324.0,
+        "note_count": 3535,
+        "pitch_range": [
+          33,
+          91
+        ],
+        "velocity_range": [
+          38,
+          127
+        ],
+        "tempo_bpm_range": [
+          150.0,
+          150.0
+        ],
+        "key_signature_metadata": [
+          "Eb",
+          "F"
+        ],
+        "time_signatures": [
+          "2/2"
+        ],
+        "programs": [
+          {
+            "channel": 0,
+            "program": 73
+          },
+          {
+            "channel": 1,
+            "program": 68
+          },
+          {
+            "channel": 2,
+            "program": 71
+          },
+          {
+            "channel": 3,
+            "program": 70
+          },
+          {
+            "channel": 4,
+            "program": 57
+          },
+          {
+            "channel": 5,
+            "program": 57
+          },
+          {
+            "channel": 6,
+            "program": 40
+          },
+          {
+            "channel": 7,
+            "program": 40
+          },
+          {
+            "channel": 8,
+            "program": 41
+          },
+          {
+            "channel": 10,
+            "program": 42
+          },
+          {
+            "channel": 11,
+            "program": 43
+          },
+          {
+            "channel": 12,
+            "program": 60
+          },
+          {
+            "channel": 13,
+            "program": 56
+          },
+          {
+            "channel": 14,
+            "program": 47
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "flauti:",
+            "notes": 231,
+            "pitch_range": [
+              70,
+              91
+            ]
+          },
+          {
+            "index": 2,
+            "name": "oboi:shared",
+            "notes": 215,
+            "pitch_range": [
+              65,
+              84
+            ]
+          },
+          {
+            "index": 3,
+            "name": "clarinetti:",
+            "notes": 279,
+            "pitch_range": [
+              70,
+              91
+            ]
+          },
+          {
+            "index": 4,
+            "name": "fagotti:shared",
+            "notes": 412,
+            "pitch_range": [
+              45,
+              65
+            ]
+          },
+          {
+            "index": 5,
+            "name": "trombone:shared",
+            "notes": 80,
+            "pitch_range": [
+              50,
+              70
+            ]
+          },
+          {
+            "index": 6,
+            "name": "trombone:",
+            "notes": 48,
+            "pitch_range": [
+              41,
+              58
+            ]
+          },
+          {
+            "index": 7,
+            "name": "violino1:",
+            "notes": 504,
+            "pitch_range": [
+              57,
+              89
+            ]
+          },
+          {
+            "index": 8,
+            "name": "violino2:",
+            "notes": 541,
+            "pitch_range": [
+              57,
+              84
+            ]
+          },
+          {
+            "index": 9,
+            "name": "viola:",
+            "notes": 383,
+            "pitch_range": [
+              48,
+              75
+            ]
+          },
+          {
+            "index": 10,
+            "name": "violoncello:",
+            "notes": 325,
+            "pitch_range": [
+              45,
+              65
+            ]
+          },
+          {
+            "index": 11,
+            "name": "contrabasso:",
+            "notes": 246,
+            "pitch_range": [
+              33,
+              53
+            ]
+          },
+          {
+            "index": 12,
+            "name": "corni:shared",
+            "notes": 106,
+            "pitch_range": [
+              58,
+              79
+            ]
+          },
+          {
+            "index": 13,
+            "name": "trombe:shared",
+            "notes": 106,
+            "pitch_range": [
+              58,
+              79
+            ]
+          },
+          {
+            "index": 14,
+            "name": "timpani:",
+            "notes": 59,
+            "pitch_range": [
+              47,
+              52
+            ]
+          }
+        ],
+        "metadata_event_count": 59
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Short imitative entries, orchestral dialogue and lively phrase transitions.",
+          "snapshot": "assets/midi/mutopia/248/mp-248-allegro-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-38",
+      "title": "Satie — Gymnopédie No. 2",
+      "source_title": "Gymnopédie No. 2",
+      "composer": "E. Satie (1866–1925)",
+      "source_filename": "gymnopedie_2.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=38",
+      "download_url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_2/gymnopedie_2.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/38/gymnopedie_2.mid",
+      "sha256": "02e8ae8d7e1f6073f12f62a61a63cf07b260a1cf49f4a9008ee4e3f8e1934d30",
+      "bytes": 3613,
+      "themes": [
+        "calm",
+        "dreamy",
+        "wistful",
+        "mysterious",
+        "tender"
+      ],
+      "reference_use": "Spaced bass-and-chord support and a restrained triple-meter melodic line.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/38/source-page.html",
+        "snapshot_sha256": "b78424fb81c956db992a5802ba612bc4e29c7b1f2f168e8f68e14b09a043bcfb"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 195.0,
+        "length_quarter_beats": 195.0,
+        "note_count": 371,
+        "pitch_range": [
+          34,
+          84
+        ],
+        "velocity_range": [
+          62,
+          123
+        ],
+        "tempo_bpm_range": [
+          60.0,
+          60.0
+        ],
+        "key_signature_metadata": [
+          "Am"
+        ],
+        "time_signatures": [
+          "3/4"
+        ],
+        "programs": [],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "treble:",
+            "notes": 306,
+            "pitch_range": [
+              55,
+              84
+            ]
+          },
+          {
+            "index": 2,
+            "name": "bass:",
+            "notes": 65,
+            "pitch_range": [
+              34,
+              43
+            ]
+          }
+        ],
+        "metadata_event_count": 12
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Spaced bass-and-chord support and a restrained triple-meter melodic line.",
+          "snapshot": "assets/midi/mutopia/38/mp-38-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-247",
+      "title": "Grieg — Åse’s Death (Peer Gynt)",
+      "source_title": "Aase's Death from Peer Gynt Suite I",
+      "composer": "E. Grieg (1843–1907)",
+      "source_filename": "aasesdeath.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=247",
+      "download_url": "https://www.mutopiaproject.org/ftp/GriegE/O46/02-lamortdase-strings/02-lamortdase-strings-mids.zip",
+      "archive_member": "aasesdeath.mid",
+      "path": "assets/midi/mutopia/247/aasesdeath.mid",
+      "sha256": "9caaeae181c0eab7155cfdd994a2ddb11dbc2dfd80e315d31509a0979ae70960",
+      "bytes": 8027,
+      "themes": [
+        "mourning",
+        "solemn",
+        "tragic",
+        "dark",
+        "strings",
+        "theatre"
+      ],
+      "reference_use": "Sustained string voices, stepwise inner motion and solemn scene pacing.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/247/source-page.html",
+        "snapshot_sha256": "abf922715f9a7d467e621bcf1aa2f8067dd7cc1e27e9512b7bcc9822f2fd3066"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 216.0,
+        "length_quarter_beats": 180.0,
+        "note_count": 721,
+        "pitch_range": [
+          30,
+          88
+        ],
+        "velocity_range": [
+          32,
+          127
+        ],
+        "tempo_bpm_range": [
+          50.0,
+          50.0
+        ],
+        "key_signature_metadata": [
+          "D"
+        ],
+        "time_signatures": [
+          "4/4"
+        ],
+        "programs": [
+          {
+            "channel": 0,
+            "program": 40
+          },
+          {
+            "channel": 1,
+            "program": 40
+          },
+          {
+            "channel": 2,
+            "program": 41
+          },
+          {
+            "channel": 3,
+            "program": 42
+          },
+          {
+            "channel": 4,
+            "program": 43
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "violiniI:one",
+            "notes": 161,
+            "pitch_range": [
+              59,
+              88
+            ]
+          },
+          {
+            "index": 2,
+            "name": "violiniII:one",
+            "notes": 134,
+            "pitch_range": [
+              58,
+              78
+            ]
+          },
+          {
+            "index": 3,
+            "name": "viole:one",
+            "notes": 133,
+            "pitch_range": [
+              50,
+              78
+            ]
+          },
+          {
+            "index": 4,
+            "name": "violoncelli:one",
+            "notes": 184,
+            "pitch_range": [
+              42,
+              70
+            ]
+          },
+          {
+            "index": 5,
+            "name": "contrabassi:contrabassi",
+            "notes": 109,
+            "pitch_range": [
+              30,
+              50
+            ]
+          }
+        ],
+        "metadata_event_count": 26
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Sustained string voices, stepwise inner motion and solemn scene pacing.",
+          "snapshot": "assets/midi/mutopia/247/mp-247-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-281",
+      "title": "Grieg — Anitra’s Dance (Peer Gynt)",
+      "source_title": "Anitra's Dance (Tanz) from Peer Gynt Suite I",
+      "composer": "E. Grieg (1843–1907)",
+      "source_filename": "anitrasdance.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=281",
+      "download_url": "https://www.mutopiaproject.org/ftp/GriegE/O46/03-anitrasdance/03-anitrasdance-mids.zip",
+      "archive_member": "anitrasdance.mid",
+      "path": "assets/midi/mutopia/281/anitrasdance.mid",
+      "sha256": "bb4a995c8dc35d4b4eb65e187526db2854ef58cb83cbf140c772cc10f20c5022",
+      "bytes": 16630,
+      "themes": [
+        "dance",
+        "playful",
+        "elegant",
+        "waltz",
+        "strings",
+        "theatre"
+      ],
+      "reference_use": "Light triple-meter motion, short string gestures and delicate accompaniment.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/281/source-page.html",
+        "snapshot_sha256": "3f86511f66b9db8183f27f1b53422257ecb22d63275991332a4517cff82a5f19"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 103.875,
+        "length_quarter_beats": 277.0,
+        "note_count": 1561,
+        "pitch_range": [
+          28,
+          93
+        ],
+        "velocity_range": [
+          12,
+          127
+        ],
+        "tempo_bpm_range": [
+          160.0,
+          160.0
+        ],
+        "key_signature_metadata": [
+          "C"
+        ],
+        "time_signatures": [
+          "3/4"
+        ],
+        "programs": [
+          {
+            "channel": 0,
+            "program": 40
+          },
+          {
+            "channel": 1,
+            "program": 40
+          },
+          {
+            "channel": 2,
+            "program": 45
+          },
+          {
+            "channel": 3,
+            "program": 45
+          },
+          {
+            "channel": 4,
+            "program": 45
+          },
+          {
+            "channel": 5,
+            "program": 45
+          },
+          {
+            "channel": 6,
+            "program": 45
+          },
+          {
+            "channel": 7,
+            "program": 112
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": ":one",
+            "notes": 355,
+            "pitch_range": [
+              59,
+              93
+            ]
+          },
+          {
+            "index": 2,
+            "name": ":one",
+            "notes": 320,
+            "pitch_range": [
+              56,
+              88
+            ]
+          },
+          {
+            "index": 3,
+            "name": "",
+            "notes": 222,
+            "pitch_range": [
+              51,
+              81
+            ]
+          },
+          {
+            "index": 4,
+            "name": "",
+            "notes": 204,
+            "pitch_range": [
+              51,
+              70
+            ]
+          },
+          {
+            "index": 5,
+            "name": "",
+            "notes": 209,
+            "pitch_range": [
+              45,
+              70
+            ]
+          },
+          {
+            "index": 6,
+            "name": "",
+            "notes": 150,
+            "pitch_range": [
+              40,
+              70
+            ]
+          },
+          {
+            "index": 7,
+            "name": "",
+            "notes": 69,
+            "pitch_range": [
+              28,
+              52
+            ]
+          },
+          {
+            "index": 8,
+            "name": "",
+            "notes": 32,
+            "pitch_range": [
+              72,
+              72
+            ]
+          }
+        ],
+        "metadata_event_count": 32
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Light triple-meter motion, short string gestures and delicate accompaniment.",
+          "snapshot": "assets/midi/mutopia/281/mp-281-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-1888",
+      "title": "Grieg — In the Hall of the Mountain King",
+      "source_title": "In the Hall of the Mountain King",
+      "composer": "E. Grieg (1843–1907)",
+      "source_filename": "Dans_l_antre_du_roi_de_la_montagne.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1888",
+      "download_url": "https://www.mutopiaproject.org/ftp/GriegE/O46/Dans_l_antre_du_roi_de_la_montagne/Dans_l_antre_du_roi_de_la_montagne.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/1888/Dans_l_antre_du_roi_de_la_montagne.mid",
+      "sha256": "0c256a809b5af1faef81b6aad6106088a71d76b12435d5f0775d4ceee60c917e",
+      "bytes": 15156,
+      "themes": [
+        "suspense",
+        "chase",
+        "dark",
+        "fantasy",
+        "action",
+        "theatre"
+      ],
+      "reference_use": "A small repeated motif and rising register; author escalation and acceleration deliberately.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/1888/source-page.html",
+        "snapshot_sha256": "4813fca05296aecdb7a5ba2fc4a28dbc5f4c465bfb28eb3beee3ad344a728752"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 145.2294,
+        "length_quarter_beats": 350.0312,
+        "note_count": 1453,
+        "pitch_range": [
+          23,
+          99
+        ],
+        "velocity_range": [
+          62,
+          101
+        ],
+        "tempo_bpm_range": [
+          138.0002,
+          154.0002
+        ],
+        "key_signature_metadata": [
+          "Bm"
+        ],
+        "time_signatures": [
+          "4/4"
+        ],
+        "programs": [
+          {
+            "channel": 1,
+            "program": 0
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "right:solo",
+            "notes": 726,
+            "pitch_range": [
+              35,
+              99
+            ]
+          },
+          {
+            "index": 2,
+            "name": "left:",
+            "notes": 727,
+            "pitch_range": [
+              23,
+              59
+            ]
+          }
+        ],
+        "metadata_event_count": 14
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "A small repeated motif and rising register; author escalation and acceleration deliberately.",
+          "snapshot": "assets/midi/mutopia/1888/mp-1888-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-2014",
+      "title": "Grieg — March of the Dwarfs",
+      "source_title": "Troldtog (March of the Dwarfs)",
+      "composer": "E. Grieg (1843–1907)",
+      "source_filename": "Troldtog.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2014",
+      "download_url": "https://www.mutopiaproject.org/ftp/GriegE/O54/Troldtog/Troldtog.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/2014/Troldtog.mid",
+      "sha256": "9d73618b3ab01976b9138c57ce7e41db3256b0eaad8b9741c909d322c6fb369e",
+      "bytes": 19385,
+      "themes": [
+        "fantasy",
+        "mischievous",
+        "march",
+        "adventure",
+        "contrast"
+      ],
+      "reference_use": "Clipped march gestures with contrasting lyrical material; choose the section for the scene.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/2014/source-page.html",
+        "snapshot_sha256": "a12cad85f25ef029643afe47df67071b5a6a16b47bd0eb8d4e46a32190023f4b"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 193.25,
+        "length_quarter_beats": 386.5,
+        "note_count": 2184,
+        "pitch_range": [
+          33,
+          95
+        ],
+        "velocity_range": [
+          41,
+          127
+        ],
+        "tempo_bpm_range": [
+          120.0,
+          120.0
+        ],
+        "key_signature_metadata": [
+          "D",
+          "Dm"
+        ],
+        "time_signatures": [
+          "2/4"
+        ],
+        "programs": [
+          {
+            "channel": 0,
+            "program": 0
+          },
+          {
+            "channel": 1,
+            "program": 0
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "right:",
+            "notes": 1324,
+            "pitch_range": [
+              50,
+              95
+            ]
+          },
+          {
+            "index": 2,
+            "name": "left:",
+            "notes": 860,
+            "pitch_range": [
+              33,
+              84
+            ]
+          }
+        ],
+        "metadata_event_count": 18
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Clipped march gestures with contrasting lyrical material; choose the section for the scene.",
+          "snapshot": "assets/midi/mutopia/2014/mp-2014-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-781",
+      "title": "Grieg — Wedding Day at Troldhaugen",
+      "source_title": "Wedding-day at Troldhaugen",
+      "composer": "E. Grieg (1843–1907)",
+      "source_filename": "troldhaugen.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=781",
+      "download_url": "https://www.mutopiaproject.org/ftp/GriegE/O65/troldhaugen/troldhaugen.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/781/troldhaugen.mid",
+      "sha256": "668205876de4597aa3647f0f85bf40f056205512dcb265ca3f549f408e952225",
+      "bytes": 34809,
+      "themes": [
+        "celebration",
+        "wedding",
+        "triumphant",
+        "festive",
+        "dance"
+      ],
+      "reference_use": "Broad celebratory phrases and lively accompaniment, with a quieter contrasting section.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/781/source-page.html",
+        "snapshot_sha256": "447e298bd8916fc9182b2d16d1c6eb7a375ff0e65f13b3fe2236df3c1cc6979d"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 365.8332,
+        "length_quarter_beats": 677.0,
+        "note_count": 3828,
+        "pitch_range": [
+          26,
+          95
+        ],
+        "velocity_range": [
+          127,
+          127
+        ],
+        "tempo_bpm_range": [
+          90.0001,
+          120.0
+        ],
+        "key_signature_metadata": [
+          "D",
+          "G"
+        ],
+        "time_signatures": [
+          "2/4",
+          "4/4"
+        ],
+        "programs": [],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "upper",
+            "notes": 2260,
+            "pitch_range": [
+              31,
+              95
+            ]
+          },
+          {
+            "index": 2,
+            "name": "lower",
+            "notes": 1568,
+            "pitch_range": [
+              26,
+              93
+            ]
+          }
+        ],
+        "metadata_event_count": 26
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Broad celebratory phrases and lively accompaniment, with a quieter contrasting section.",
+          "snapshot": "assets/midi/mutopia/781/mp-781-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-1171",
+      "title": "Tchaikovsky — The Seasons: January",
+      "source_title": "The Seasons: January",
+      "composer": "P. I. Tchaikovsky (1840–1893)",
+      "source_filename": "Tschaikowsky-op37.1.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1171",
+      "download_url": "https://www.mutopiaproject.org/ftp/TchaikovskyPI/O37/Tschaikowsky-op37.1/Tschaikowsky-op37.1.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/1171/Tschaikowsky-op37.1.mid",
+      "sha256": "34110e377929c99b8f730cabdde73b11cc5cbb58573be6a1727e893b23fcbdb4",
+      "bytes": 13784,
+      "themes": [
+        "winter",
+        "warm",
+        "reflective",
+        "calm",
+        "intimate"
+      ],
+      "reference_use": "Lyrical phrasing and warm accompaniment for an intimate interior scene.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/1171/source-page.html",
+        "snapshot_sha256": "6f3c3ad8de9087550255b9268ae66a7d375097990f77c441edb31268225dc45c"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 257.4999,
+        "length_quarter_beats": 309.0,
+        "note_count": 1526,
+        "pitch_range": [
+          33,
+          100
+        ],
+        "velocity_range": [
+          127,
+          127
+        ],
+        "tempo_bpm_range": [
+          72.0,
+          72.0
+        ],
+        "key_signature_metadata": [
+          "A",
+          "G"
+        ],
+        "time_signatures": [
+          "3/4"
+        ],
+        "programs": [],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "upper",
+            "notes": 938,
+            "pitch_range": [
+              47,
+              100
+            ]
+          },
+          {
+            "index": 2,
+            "name": "lower",
+            "notes": 588,
+            "pitch_range": [
+              33,
+              88
+            ]
+          }
+        ],
+        "metadata_event_count": 16
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Lyrical phrasing and warm accompaniment for an intimate interior scene.",
+          "snapshot": "assets/midi/mutopia/1171/mp-1171-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-1398",
+      "title": "Tchaikovsky — The Seasons: February",
+      "source_title": "The Seasons: February",
+      "composer": "P. I. Tchaikovsky (1840–1893)",
+      "source_filename": "Tschaikowsky-op37.2.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1398",
+      "download_url": "https://www.mutopiaproject.org/ftp/TchaikovskyPI/O37/Tschaikowsky-op37.2/Tschaikowsky-op37.2.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/1398/Tschaikowsky-op37.2.mid",
+      "sha256": "1ccb02d92be316f3ae5c6ef03235bfa33878097f13a3a1359a2b2784bbdd8cf9",
+      "bytes": 16582,
+      "themes": [
+        "carnival",
+        "celebration",
+        "playful",
+        "dance",
+        "festival"
+      ],
+      "reference_use": "Buoyant accents and quick phrase exchanges for a festive crowd scene.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/1398/source-page.html",
+        "snapshot_sha256": "1b31a2626abb394be42c9218b088ae819e89abe82447bb223f536c8eed27d0d6"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 281.2499,
+        "length_quarter_beats": 337.5,
+        "note_count": 1810,
+        "pitch_range": [
+          29,
+          93
+        ],
+        "velocity_range": [
+          127,
+          127
+        ],
+        "tempo_bpm_range": [
+          72.0,
+          72.0
+        ],
+        "key_signature_metadata": [
+          "D"
+        ],
+        "time_signatures": [
+          "2/4"
+        ],
+        "programs": [],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "upper",
+            "notes": 921,
+            "pitch_range": [
+              50,
+              93
+            ]
+          },
+          {
+            "index": 3,
+            "name": "lower",
+            "notes": 889,
+            "pitch_range": [
+              29,
+              85
+            ]
+          }
+        ],
+        "metadata_event_count": 14
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Buoyant accents and quick phrase exchanges for a festive crowd scene.",
+          "snapshot": "assets/midi/mutopia/1398/mp-1398-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-803",
+      "title": "Tchaikovsky — The Seasons: August",
+      "source_title": "The Seasons: August",
+      "composer": "P. I. Tchaikovsky (1840–1893)",
+      "source_filename": "Tschaikowsky-op37.8.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=803",
+      "download_url": "https://www.mutopiaproject.org/ftp/TchaikovskyPI/O37/Tschaikowsky-op37.8/Tschaikowsky-op37.8.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/803/Tschaikowsky-op37.8.mid",
+      "sha256": "50779bb218b0c3a73df33495af91b33e73be074823f4562ec95343db76b8a8a7",
+      "bytes": 21748,
+      "themes": [
+        "motion",
+        "pastoral",
+        "energetic",
+        "flowing",
+        "summer"
+      ],
+      "reference_use": "Flowing repeated figures with contrasting lyricism for outdoor movement.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/803/source-page.html",
+        "snapshot_sha256": "2f8f1684e712d8f01e70f2970f355ab6acc4b3bf99795a6bf6d15c7fa9d04413"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 330.833,
+        "length_quarter_beats": 595.5,
+        "note_count": 2442,
+        "pitch_range": [
+          35,
+          95
+        ],
+        "velocity_range": [
+          127,
+          127
+        ],
+        "tempo_bpm_range": [
+          108.0001,
+          108.0001
+        ],
+        "key_signature_metadata": [
+          "Bm"
+        ],
+        "time_signatures": [
+          "6/8"
+        ],
+        "programs": [],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "upper",
+            "notes": 1434,
+            "pitch_range": [
+              43,
+              95
+            ]
+          },
+          {
+            "index": 2,
+            "name": "lower",
+            "notes": 1008,
+            "pitch_range": [
+              35,
+              83
+            ]
+          }
+        ],
+        "metadata_event_count": 20
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Flowing repeated figures with contrasting lyricism for outdoor movement.",
+          "snapshot": "assets/midi/mutopia/803/mp-803-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-2032",
+      "title": "Tchaikovsky — Morning Prayer",
+      "source_title": "Morning Prayer",
+      "composer": "P. I. Tchaikovsky (1840–1893)",
+      "source_filename": "01MorningPrayer.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2032",
+      "download_url": "https://www.mutopiaproject.org/ftp/TchaikovskyPI/O39/01MorningPrayer/01MorningPrayer.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/2032/01MorningPrayer.mid",
+      "sha256": "7ec37d25e8ea12d0b2053a5916140f7d03b4cdf1357c01171fd8a3c1d8c6e50f",
+      "bytes": 2661,
+      "themes": [
+        "solemn",
+        "peaceful",
+        "sacred",
+        "reflective",
+        "calm"
+      ],
+      "reference_use": "Chordal voice leading and simple cadential pacing for a quiet opening.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/2032/source-page.html",
+        "snapshot_sha256": "2542c7ca967a67024c7415dfbb2a4ed04a5825595a290af69ca55a99cd2c68d9"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 69.6774,
+        "length_quarter_beats": 72.0,
+        "note_count": 246,
+        "pitch_range": [
+          42,
+          79
+        ],
+        "velocity_range": [
+          48,
+          98
+        ],
+        "tempo_bpm_range": [
+          62.0001,
+          62.0001
+        ],
+        "key_signature_metadata": [
+          "G"
+        ],
+        "time_signatures": [
+          "3/4"
+        ],
+        "programs": [
+          {
+            "channel": 0,
+            "program": 0
+          },
+          {
+            "channel": 1,
+            "program": 0
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "upper:",
+            "notes": 127,
+            "pitch_range": [
+              54,
+              79
+            ]
+          },
+          {
+            "index": 2,
+            "name": "lower:",
+            "notes": 119,
+            "pitch_range": [
+              42,
+              66
+            ]
+          }
+        ],
+        "metadata_event_count": 14
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Chordal voice leading and simple cadential pacing for a quiet opening.",
+          "snapshot": "assets/midi/mutopia/2032/mp-2032-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-1806",
+      "title": "Tchaikovsky — March of the Wooden Soldiers",
+      "source_title": "March of the Wooden Soldiers",
+      "composer": "P. I. Tchaikovsky (1840–1893)",
+      "source_filename": "05MarchOfTheWoodenSoldiers.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1806",
+      "download_url": "https://www.mutopiaproject.org/ftp/TchaikovskyPI/O39/05MarchOfTheWoodenSoldiers/05MarchOfTheWoodenSoldiers.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/1806/05MarchOfTheWoodenSoldiers.mid",
+      "sha256": "a9717d793785c3c702d85e20f99a81de60faedd29fc4e7dcb240fbc99a9b0d2b",
+      "bytes": 2983,
+      "themes": [
+        "playful",
+        "march",
+        "toy",
+        "comic",
+        "children"
+      ],
+      "reference_use": "Short dotted figures and light accents for a comic procession.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/1806/source-page.html",
+        "snapshot_sha256": "2cfc5ecde25db64ef80d5d136eb0e7889299de9aff1e759aa4955bfa53d70ef5"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 40.5,
+        "length_quarter_beats": 94.5,
+        "note_count": 318,
+        "pitch_range": [
+          57,
+          79
+        ],
+        "velocity_range": [
+          90,
+          90
+        ],
+        "tempo_bpm_range": [
+          140.0001,
+          140.0001
+        ],
+        "key_signature_metadata": [
+          "D"
+        ],
+        "time_signatures": [
+          "2/4"
+        ],
+        "programs": [],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "staffu:",
+            "notes": 167,
+            "pitch_range": [
+              64,
+              79
+            ]
+          },
+          {
+            "index": 2,
+            "name": "staffl:",
+            "notes": 151,
+            "pitch_range": [
+              57,
+              74
+            ]
+          }
+        ],
+        "metadata_event_count": 12
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Short dotted figures and light accents for a comic procession.",
+          "snapshot": "assets/midi/mutopia/1806/mp-1806-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-2080",
+      "title": "Tchaikovsky — Old French Song",
+      "source_title": "Old French Song",
+      "composer": "P. I. Tchaikovsky (1840–1893)",
+      "source_filename": "16OldFrenchSong.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2080",
+      "download_url": "https://www.mutopiaproject.org/ftp/TchaikovskyPI/O39/16OldFrenchSong/16OldFrenchSong.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/2080/16OldFrenchSong.mid",
+      "sha256": "112c3b61dab55f58bc44d9f3522ef21b3479ffa1953097783ff8c4f10e40175d",
+      "bytes": 1900,
+      "themes": [
+        "wistful",
+        "nostalgic",
+        "folk",
+        "tender",
+        "medieval"
+      ],
+      "reference_use": "A compact singing melody and spare accompaniment for a nostalgic scene.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/2080/source-page.html",
+        "snapshot_sha256": "ca681d552186b2746d5cbc2714e19240927cadc093ba5c0b91786d33f0fe00b5"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 55.2857,
+        "length_quarter_beats": 64.5,
+        "note_count": 188,
+        "pitch_range": [
+          43,
+          77
+        ],
+        "velocity_range": [
+          90,
+          90
+        ],
+        "tempo_bpm_range": [
+          70.0001,
+          70.0001
+        ],
+        "key_signature_metadata": [
+          "Gm"
+        ],
+        "time_signatures": [
+          "2/4"
+        ],
+        "programs": [
+          {
+            "channel": 0,
+            "program": 0
+          },
+          {
+            "channel": 1,
+            "program": 0
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "upper:",
+            "notes": 99,
+            "pitch_range": [
+              58,
+              77
+            ]
+          },
+          {
+            "index": 2,
+            "name": "lower:",
+            "notes": 89,
+            "pitch_range": [
+              43,
+              67
+            ]
+          }
+        ],
+        "metadata_event_count": 14
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "A compact singing melody and spare accompaniment for a nostalgic scene.",
+          "snapshot": "assets/midi/mutopia/2080/mp-2080-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-896",
+      "title": "Tchaikovsky — Neapolitan Dance (Swan Lake), arrangement",
+      "source_title": "Napolitan Dance (Swan Lake)",
+      "composer": "P. I. Tchaikovsky (1840–1893)",
+      "source_filename": "dansenapolitaine.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=896",
+      "download_url": "https://www.mutopiaproject.org/ftp/TchaikovskyPI/dansenapolitaine/dansenapolitaine.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/896/dansenapolitaine.mid",
+      "sha256": "084540482e5522035447a44be092d38084c3308cdd2ea4f8c468b861f9fba43b",
+      "bytes": 7936,
+      "themes": [
+        "ballet",
+        "dance",
+        "cheerful",
+        "theatrical",
+        "lively"
+      ],
+      "reference_use": "Melodic lift and dance rhythm. MIDI labels flute, tambourine and piano despite the page listing trumpet.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/896/source-page.html",
+        "snapshot_sha256": "6319f7393e6741db42b754e144d8e8edea2fec018bf5714a5876d626d3b12eb2"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 89.1666,
+        "length_quarter_beats": 107.0,
+        "note_count": 885,
+        "pitch_range": [
+          46,
+          79
+        ],
+        "velocity_range": [
+          127,
+          127
+        ],
+        "tempo_bpm_range": [
+          72.0,
+          72.0
+        ],
+        "key_signature_metadata": [
+          "Eb",
+          "F"
+        ],
+        "time_signatures": [
+          "2/4"
+        ],
+        "programs": [],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "flute",
+            "notes": 248,
+            "pitch_range": [
+              65,
+              79
+            ]
+          },
+          {
+            "index": 2,
+            "name": "tambourin",
+            "notes": 110,
+            "pitch_range": [
+              60,
+              60
+            ]
+          },
+          {
+            "index": 3,
+            "name": "uppera",
+            "notes": 453,
+            "pitch_range": [
+              53,
+              67
+            ]
+          },
+          {
+            "index": 4,
+            "name": "lowera",
+            "notes": 74,
+            "pitch_range": [
+              46,
+              58
+            ]
+          }
+        ],
+        "metadata_event_count": 17
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Melodic lift and dance rhythm. MIDI labels flute, tambourine and piano despite the page listing trumpet.",
+          "snapshot": "assets/midi/mutopia/896/mp-896-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-2157",
+      "title": "R. B. Hall — Tenth Regiment March",
+      "source_title": "Tenth Regiment March",
+      "composer": "R. B. Hall (1858–1907)",
+      "source_filename": "TenthRegScoreTransposed.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2157",
+      "download_url": "https://www.mutopiaproject.org/ftp/HallRB/TenthRegimentMarch/TenthRegimentMarch-mids.zip",
+      "archive_member": "TenthRegScoreTransposed.mid",
+      "path": "assets/midi/mutopia/2157/TenthRegScoreTransposed.mid",
+      "sha256": "7ec971fe4d45f77e002d59c92a5d346c14db42d3f1bed78608de4b0dba85e69f",
+      "bytes": 58901,
+      "themes": [
+        "ceremonial",
+        "march",
+        "heroic",
+        "parade",
+        "band"
+      ],
+      "reference_use": "Compound-meter march rhythms and wind exchanges; inspect the actual parts before orchestrating.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/2157/source-page.html",
+        "snapshot_sha256": "9e4f958c204a585c190d975ff9b1581fe9d26752198ab1a9a389cf61a878b5d9"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 195.8331,
+        "length_quarter_beats": 587.5,
+        "note_count": 6236,
+        "pitch_range": [
+          40,
+          93
+        ],
+        "velocity_range": [
+          48,
+          107
+        ],
+        "tempo_bpm_range": [
+          180.0002,
+          180.0002
+        ],
+        "key_signature_metadata": [
+          "Bb",
+          "F"
+        ],
+        "time_signatures": [
+          "6/8"
+        ],
+        "programs": [
+          {
+            "channel": 1,
+            "program": 73
+          },
+          {
+            "channel": 2,
+            "program": 73
+          },
+          {
+            "channel": 3,
+            "program": 71
+          },
+          {
+            "channel": 4,
+            "program": 71
+          },
+          {
+            "channel": 5,
+            "program": 71
+          },
+          {
+            "channel": 6,
+            "program": 71
+          },
+          {
+            "channel": 7,
+            "program": 66
+          },
+          {
+            "channel": 8,
+            "program": 56
+          },
+          {
+            "channel": 10,
+            "program": 56
+          },
+          {
+            "channel": 11,
+            "program": 56
+          },
+          {
+            "channel": 12,
+            "program": 56
+          },
+          {
+            "channel": 13,
+            "program": 57
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 2,
+            "name": "",
+            "notes": 561,
+            "pitch_range": [
+              72,
+              93
+            ]
+          },
+          {
+            "index": 3,
+            "name": "",
+            "notes": 558,
+            "pitch_range": [
+              72,
+              89
+            ]
+          },
+          {
+            "index": 4,
+            "name": "",
+            "notes": 571,
+            "pitch_range": [
+              52,
+              89
+            ]
+          },
+          {
+            "index": 5,
+            "name": "",
+            "notes": 534,
+            "pitch_range": [
+              52,
+              81
+            ]
+          },
+          {
+            "index": 6,
+            "name": "",
+            "notes": 506,
+            "pitch_range": [
+              52,
+              77
+            ]
+          },
+          {
+            "index": 7,
+            "name": "",
+            "notes": 488,
+            "pitch_range": [
+              40,
+              65
+            ]
+          },
+          {
+            "index": 8,
+            "name": "",
+            "notes": 438,
+            "pitch_range": [
+              48,
+              65
+            ]
+          },
+          {
+            "index": 9,
+            "name": "",
+            "notes": 572,
+            "pitch_range": [
+              60,
+              81
+            ]
+          },
+          {
+            "index": 10,
+            "name": "",
+            "notes": 539,
+            "pitch_range": [
+              60,
+              77
+            ]
+          },
+          {
+            "index": 11,
+            "name": "",
+            "notes": 481,
+            "pitch_range": [
+              55,
+              72
+            ]
+          },
+          {
+            "index": 12,
+            "name": "",
+            "notes": 424,
+            "pitch_range": [
+              55,
+              67
+            ]
+          },
+          {
+            "index": 13,
+            "name": "",
+            "notes": 564,
+            "pitch_range": [
+              40,
+              65
+            ]
+          }
+        ],
+        "metadata_event_count": 55
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Compound-meter march rhythms and wind exchanges; inspect the actual parts before orchestrating.",
+          "snapshot": "assets/midi/mutopia/2157/mp-2157-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-1643",
+      "title": "Sousa — The Fairest of the Fair, wind score",
+      "source_title": "The Fairest of the Fair",
+      "composer": "J. P. Sousa (1854–1932)",
+      "source_filename": "JPSFotFConductorTransposed.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1643",
+      "download_url": "https://www.mutopiaproject.org/ftp/SousaJP/JPSFotF/JPSFotF-mids.zip",
+      "archive_member": "JPSFotFConductorTransposed.mid",
+      "path": "assets/midi/mutopia/1643/JPSFotFConductorTransposed.mid",
+      "sha256": "d3df46b7cb1b7c6602690117272b05b12774ed3b63b2c19b816d144e9cc24f22",
+      "bytes": 47255,
+      "themes": [
+        "festive",
+        "march",
+        "parade",
+        "bright",
+        "woodwinds"
+      ],
+      "reference_use": "Wind voicings and march phrasing; this edition does not supply all original band parts.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/1643/source-page.html",
+        "snapshot_sha256": "77c6f850784458e4eca8852ce5e6d1d781a8f7ea9e90b37257b4a2a620fb5792"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 138.8333,
+        "length_quarter_beats": 277.6667,
+        "note_count": 5141,
+        "pitch_range": [
+          32,
+          104
+        ],
+        "velocity_range": [
+          127,
+          127
+        ],
+        "tempo_bpm_range": [
+          120.0,
+          120.0
+        ],
+        "key_signature_metadata": [
+          "Ab",
+          "Eb"
+        ],
+        "time_signatures": [
+          "2/4"
+        ],
+        "programs": [
+          {
+            "channel": 1,
+            "program": 72
+          },
+          {
+            "channel": 2,
+            "program": 73
+          },
+          {
+            "channel": 3,
+            "program": 68
+          },
+          {
+            "channel": 4,
+            "program": 70
+          },
+          {
+            "channel": 5,
+            "program": 71
+          },
+          {
+            "channel": 6,
+            "program": 71
+          },
+          {
+            "channel": 7,
+            "program": 71
+          },
+          {
+            "channel": 8,
+            "program": 71
+          },
+          {
+            "channel": 10,
+            "program": 71
+          },
+          {
+            "channel": 11,
+            "program": 64
+          },
+          {
+            "channel": 12,
+            "program": 65
+          },
+          {
+            "channel": 13,
+            "program": 66
+          },
+          {
+            "channel": 14,
+            "program": 67
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "",
+            "notes": 408,
+            "pitch_range": [
+              82,
+              104
+            ]
+          },
+          {
+            "index": 2,
+            "name": "",
+            "notes": 414,
+            "pitch_range": [
+              70,
+              92
+            ]
+          },
+          {
+            "index": 3,
+            "name": "",
+            "notes": 544,
+            "pitch_range": [
+              62,
+              84
+            ]
+          },
+          {
+            "index": 4,
+            "name": "",
+            "notes": 509,
+            "pitch_range": [
+              40,
+              70
+            ]
+          },
+          {
+            "index": 5,
+            "name": "",
+            "notes": 399,
+            "pitch_range": [
+              70,
+              92
+            ]
+          },
+          {
+            "index": 6,
+            "name": "",
+            "notes": 393,
+            "pitch_range": [
+              60,
+              89
+            ]
+          },
+          {
+            "index": 7,
+            "name": "",
+            "notes": 499,
+            "pitch_range": [
+              58,
+              87
+            ]
+          },
+          {
+            "index": 8,
+            "name": "",
+            "notes": 309,
+            "pitch_range": [
+              46,
+              75
+            ]
+          },
+          {
+            "index": 9,
+            "name": "",
+            "notes": 317,
+            "pitch_range": [
+              44,
+              70
+            ]
+          },
+          {
+            "index": 10,
+            "name": "",
+            "notes": 387,
+            "pitch_range": [
+              58,
+              84
+            ]
+          },
+          {
+            "index": 11,
+            "name": "",
+            "notes": 335,
+            "pitch_range": [
+              46,
+              72
+            ]
+          },
+          {
+            "index": 12,
+            "name": "",
+            "notes": 352,
+            "pitch_range": [
+              46,
+              68
+            ]
+          },
+          {
+            "index": 13,
+            "name": "",
+            "notes": 275,
+            "pitch_range": [
+              32,
+              55
+            ]
+          }
+        ],
+        "metadata_event_count": 71
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Wind voicings and march phrasing; this edition does not supply all original band parts.",
+          "snapshot": "assets/midi/mutopia/1643/mp-1643-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-626",
+      "title": "Sousa — The Stars and Stripes Forever, piano",
+      "source_title": "The Stars and Stripes Forever",
+      "composer": "J. P. Sousa (1854–1932)",
+      "source_filename": "TheStarsAndStripesForever.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=626",
+      "download_url": "https://www.mutopiaproject.org/ftp/SousaJP/TheStarsAndStripesForever/TheStarsAndStripesForever.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/626/TheStarsAndStripesForever.mid",
+      "sha256": "73e75e76c0708dbec4697ab61438b5c63ca3b5c1a56de59f1f5ab0478fd3b274",
+      "bytes": 22170,
+      "themes": [
+        "triumphant",
+        "march",
+        "parade",
+        "heroic",
+        "finale"
+      ],
+      "reference_use": "March-strain structure and bass/chord pulse; redistribute this piano texture for theatre forces.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/626/source-page.html",
+        "snapshot_sha256": "fdc7e772878c2e03406868d72224f12eafab31d491c0e1b512b15963c61afbed"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 211.75,
+        "length_quarter_beats": 847.0,
+        "note_count": 2514,
+        "pitch_range": [
+          32,
+          92
+        ],
+        "velocity_range": [
+          69,
+          127
+        ],
+        "tempo_bpm_range": [
+          240.0,
+          240.0
+        ],
+        "key_signature_metadata": [
+          "Ab",
+          "Eb"
+        ],
+        "time_signatures": [
+          "2/2"
+        ],
+        "programs": [],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "upper:",
+            "notes": 1134,
+            "pitch_range": [
+              54,
+              92
+            ]
+          },
+          {
+            "index": 2,
+            "name": "lower:",
+            "notes": 1380,
+            "pitch_range": [
+              32,
+              68
+            ]
+          }
+        ],
+        "metadata_event_count": 14
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "March-strain structure and bass/chord pulse; redistribute this piano texture for theatre forces.",
+          "snapshot": "assets/midi/mutopia/626/mp-626-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-1410",
+      "title": "Sousa — Transit of Venus March, piano",
+      "source_title": "Transit of Venus March",
+      "composer": "J. P. Sousa (1854–1932)",
+      "source_filename": "TransitOfVenus.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1410",
+      "download_url": "https://www.mutopiaproject.org/ftp/SousaJP/TransitOfVenus/TransitOfVenus.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/1410/TransitOfVenus.mid",
+      "sha256": "bfa283c03d188bd65fb98314e6391329eb1d9d5553cc9898c63c902bdf7e9d7b",
+      "bytes": 14856,
+      "themes": [
+        "ceremonial",
+        "march",
+        "stately",
+        "elegant"
+      ],
+      "reference_use": "Steady march pulse and balanced phrases for a procession.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/1410/source-page.html",
+        "snapshot_sha256": "9fadda8d8614bc938ca8ac790592e1bef3e508ad53daa1b79ea5f2fbb2defb8d"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 115.8332,
+        "length_quarter_beats": 347.5,
+        "note_count": 1625,
+        "pitch_range": [
+          36,
+          91
+        ],
+        "velocity_range": [
+          127,
+          127
+        ],
+        "tempo_bpm_range": [
+          180.0002,
+          180.0002
+        ],
+        "key_signature_metadata": [
+          "C",
+          "Db",
+          "G"
+        ],
+        "time_signatures": [
+          "6/8"
+        ],
+        "programs": [],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "upper",
+            "notes": 610,
+            "pitch_range": [
+              64,
+              91
+            ]
+          },
+          {
+            "index": 2,
+            "name": "lower",
+            "notes": 1015,
+            "pitch_range": [
+              36,
+              67
+            ]
+          }
+        ],
+        "metadata_event_count": 18
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Steady march pulse and balanced phrases for a procession.",
+          "snapshot": "assets/midi/mutopia/1410/mp-1410-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-3",
+      "title": "Bach — Double Violin Concerto BWV 1043: Largo",
+      "source_title": "Concerto in D minor for two violins and strings",
+      "composer": "J. S. Bach (1685–1750)",
+      "source_filename": "score-1.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=3",
+      "download_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1043/concerto-in-d-minor/concerto-in-d-minor-mids.zip",
+      "archive_member": "score-1.mid",
+      "path": "assets/midi/mutopia/3/score-1.mid",
+      "sha256": "563120106bd3d51335a51f156c810f4fd3ed631d521f353adf50036541854ebd",
+      "bytes": 20084,
+      "themes": [
+        "tender",
+        "calm",
+        "lyrical",
+        "strings",
+        "duet",
+        "baroque"
+      ],
+      "reference_use": "Overlapping lyrical string voices in compound meter; interpret the dotted-quarter pulse.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/3/source-page.html",
+        "snapshot_sha256": "6a45de91edc4bd9959ab3ee10704f8e4f79d0cb47412fe23043359ed87aae42d"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 369.375,
+        "length_quarter_beats": 295.5,
+        "note_count": 2233,
+        "pitch_range": [
+          36,
+          86
+        ],
+        "velocity_range": [
+          62,
+          101
+        ],
+        "tempo_bpm_range": [
+          48.0,
+          48.0
+        ],
+        "key_signature_metadata": [
+          "F"
+        ],
+        "time_signatures": [
+          "12/8"
+        ],
+        "programs": [
+          {
+            "channel": 0,
+            "program": 40
+          },
+          {
+            "channel": 1,
+            "program": 40
+          },
+          {
+            "channel": 2,
+            "program": 6
+          },
+          {
+            "channel": 3,
+            "program": 6
+          },
+          {
+            "channel": 4,
+            "program": 6
+          },
+          {
+            "channel": 5,
+            "program": 6
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "",
+            "notes": 575,
+            "pitch_range": [
+              55,
+              86
+            ]
+          },
+          {
+            "index": 2,
+            "name": ":SoloViolinII",
+            "notes": 624,
+            "pitch_range": [
+              55,
+              86
+            ]
+          },
+          {
+            "index": 3,
+            "name": ":ViolinI",
+            "notes": 218,
+            "pitch_range": [
+              64,
+              84
+            ]
+          },
+          {
+            "index": 4,
+            "name": ":ViolinII",
+            "notes": 217,
+            "pitch_range": [
+              57,
+              81
+            ]
+          },
+          {
+            "index": 5,
+            "name": ":Viola",
+            "notes": 212,
+            "pitch_range": [
+              53,
+              72
+            ]
+          },
+          {
+            "index": 6,
+            "name": ":Continuo",
+            "notes": 387,
+            "pitch_range": [
+              36,
+              65
+            ]
+          }
+        ],
+        "metadata_event_count": 29
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Overlapping lyrical string voices in compound meter; interpret the dotted-quarter pulse.",
+          "snapshot": "assets/midi/mutopia/3/mp-3-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-29",
+      "title": "Bach — Violin Concerto BWV 1042: Allegro",
+      "source_title": "Concerto in E major for violin and strings",
+      "composer": "J. S. Bach (1685–1750)",
+      "source_filename": "score.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=29",
+      "download_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1042/concerto-in-e-major/concerto-in-e-major-mids.zip",
+      "archive_member": "score.mid",
+      "path": "assets/midi/mutopia/29/score.mid",
+      "sha256": "dfeee5263c46ef3cf11cd3b80708f578f940e64e4d759f3cbeb669a0b58207eb",
+      "bytes": 59249,
+      "themes": [
+        "bright",
+        "baroque",
+        "adventure",
+        "strings",
+        "momentum"
+      ],
+      "reference_use": "Solo-and-ensemble exchanges and recurring rhythmic cells.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/29/source-page.html",
+        "snapshot_sha256": "42d06816066dff4b58ada9b80980e8ab1dd2dcf39870ea4b8d48800c01f8c14c"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 379.0905,
+        "length_quarter_beats": 695.0,
+        "note_count": 6883,
+        "pitch_range": [
+          37,
+          88
+        ],
+        "velocity_range": [
+          62,
+          101
+        ],
+        "tempo_bpm_range": [
+          110.0001,
+          110.0001
+        ],
+        "key_signature_metadata": [
+          "E"
+        ],
+        "time_signatures": [
+          "2/2"
+        ],
+        "programs": [
+          {
+            "channel": 0,
+            "program": 40
+          },
+          {
+            "channel": 1,
+            "program": 6
+          },
+          {
+            "channel": 2,
+            "program": 6
+          },
+          {
+            "channel": 3,
+            "program": 6
+          },
+          {
+            "channel": 4,
+            "program": 6
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": ":SoloViolin",
+            "notes": 2455,
+            "pitch_range": [
+              56,
+              88
+            ]
+          },
+          {
+            "index": 2,
+            "name": ":ViolinI",
+            "notes": 1269,
+            "pitch_range": [
+              56,
+              85
+            ]
+          },
+          {
+            "index": 3,
+            "name": ":ViolinII",
+            "notes": 929,
+            "pitch_range": [
+              56,
+              80
+            ]
+          },
+          {
+            "index": 4,
+            "name": ":Viola",
+            "notes": 970,
+            "pitch_range": [
+              52,
+              73
+            ]
+          },
+          {
+            "index": 5,
+            "name": ":Continuo",
+            "notes": 1260,
+            "pitch_range": [
+              37,
+              64
+            ]
+          }
+        ],
+        "metadata_event_count": 26
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Solo-and-ensemble exchanges and recurring rhythmic cells.",
+          "snapshot": "assets/midi/mutopia/29/mp-29-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-944",
+      "title": "Beethoven — Romance for Violin Op. 40",
+      "source_title": "Romanze - Opus 40",
+      "composer": "L. V. Beethoven (1770–1827)",
+      "source_filename": "Romanze_Opus40.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=944",
+      "download_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O40/Romanze_Opus40/Romanze_Opus40.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/944/Romanze_Opus40.mid",
+      "sha256": "5ef4d6e9d85e107c2951391d52ae98c129e1b9a0b995ddc5437729a60ba67e76",
+      "bytes": 29294,
+      "themes": [
+        "romantic",
+        "tender",
+        "lyrical",
+        "elegant",
+        "strings"
+      ],
+      "reference_use": "The solo violin line and restrained orchestral answers.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/944/source-page.html",
+        "snapshot_sha256": "c6df68d2eef20d3c683da501d7ec1d98d458bcf9c57a6a0c70f77403ae2f8d61"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 460.0,
+        "length_quarter_beats": 368.0,
+        "note_count": 3179,
+        "pitch_range": [
+          43,
+          91
+        ],
+        "velocity_range": [
+          127,
+          127
+        ],
+        "tempo_bpm_range": [
+          48.0,
+          48.0
+        ],
+        "key_signature_metadata": [
+          "C",
+          "G"
+        ],
+        "time_signatures": [
+          "4/4"
+        ],
+        "programs": [
+          {
+            "channel": 1,
+            "program": 73
+          },
+          {
+            "channel": 2,
+            "program": 68
+          },
+          {
+            "channel": 3,
+            "program": 70
+          },
+          {
+            "channel": 4,
+            "program": 69
+          },
+          {
+            "channel": 5,
+            "program": 40
+          },
+          {
+            "channel": 6,
+            "program": 40
+          },
+          {
+            "channel": 7,
+            "program": 40
+          },
+          {
+            "channel": 8,
+            "program": 41
+          },
+          {
+            "channel": 10,
+            "program": 42
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "one",
+            "notes": 130,
+            "pitch_range": [
+              73,
+              88
+            ]
+          },
+          {
+            "index": 2,
+            "name": "two",
+            "notes": 299,
+            "pitch_range": [
+              62,
+              83
+            ]
+          },
+          {
+            "index": 3,
+            "name": "three",
+            "notes": 302,
+            "pitch_range": [
+              43,
+              67
+            ]
+          },
+          {
+            "index": 4,
+            "name": "four",
+            "notes": 258,
+            "pitch_range": [
+              62,
+              86
+            ]
+          },
+          {
+            "index": 5,
+            "name": "five",
+            "notes": 667,
+            "pitch_range": [
+              55,
+              91
+            ]
+          },
+          {
+            "index": 6,
+            "name": "six",
+            "notes": 455,
+            "pitch_range": [
+              55,
+              83
+            ]
+          },
+          {
+            "index": 7,
+            "name": "seven",
+            "notes": 373,
+            "pitch_range": [
+              55,
+              83
+            ]
+          },
+          {
+            "index": 8,
+            "name": "eight",
+            "notes": 383,
+            "pitch_range": [
+              50,
+              74
+            ]
+          },
+          {
+            "index": 9,
+            "name": "nine",
+            "notes": 312,
+            "pitch_range": [
+              43,
+              62
+            ]
+          }
+        ],
+        "metadata_event_count": 42
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "The solo violin line and restrained orchestral answers.",
+          "snapshot": "assets/midi/mutopia/944/mp-944-opening.json"
+        }
+      ]
+    },
+    {
+      "id": "mp-911",
+      "title": "Beethoven — Romance for Violin Op. 50",
+      "source_title": "Romanze",
+      "composer": "L. V. Beethoven (1770–1827)",
+      "source_filename": "Romanze_Opus50.mid",
+      "source_group": "mutopia",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=911",
+      "download_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O50/Romanze_Opus50/Romanze_Opus50.mid",
+      "archive_member": null,
+      "path": "assets/midi/mutopia/911/Romanze_Opus50.mid",
+      "sha256": "b80b4cea7fb8dce8588be9b42097b733f606551b71d2749dd4cc3e6fff7828ce",
+      "bytes": 41004,
+      "themes": [
+        "romantic",
+        "warm",
+        "lyrical",
+        "longing",
+        "strings"
+      ],
+      "reference_use": "Sustained lyrical contours and supporting orchestral phrases.",
+      "rights_status": "public_domain_source_documented",
+      "rights_evidence": {
+        "retrieved_on": "2026-10-15",
+        "source_label": "Public Domain",
+        "scope": "The contributor dedicated this edition, including the provided MIDI, to the public domain; historical composition.",
+        "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+        "snapshot": "assets/midi/mutopia/911/source-page.html",
+        "snapshot_sha256": "edc0281a2c274afaf23295c4ba99ba3c3c518af91583f41f3dc53c07fe678a5a"
+      },
+      "analysis": {
+        "type": 1,
+        "ticks_per_beat": 384,
+        "duration_seconds": 513.125,
+        "length_quarter_beats": 410.5,
+        "note_count": 4748,
+        "pitch_range": [
+          41,
+          96
+        ],
+        "velocity_range": [
+          127,
+          127
+        ],
+        "tempo_bpm_range": [
+          48.0,
+          48.0
+        ],
+        "key_signature_metadata": [
+          "C",
+          "F"
+        ],
+        "time_signatures": [
+          "4/4"
+        ],
+        "programs": [
+          {
+            "channel": 1,
+            "program": 73
+          },
+          {
+            "channel": 2,
+            "program": 68
+          },
+          {
+            "channel": 3,
+            "program": 70
+          },
+          {
+            "channel": 4,
+            "program": 69
+          },
+          {
+            "channel": 5,
+            "program": 40
+          },
+          {
+            "channel": 6,
+            "program": 40
+          },
+          {
+            "channel": 7,
+            "program": 40
+          },
+          {
+            "channel": 8,
+            "program": 41
+          },
+          {
+            "channel": 10,
+            "program": 42
+          }
+        ],
+        "note_tracks": [
+          {
+            "index": 1,
+            "name": "one",
+            "notes": 255,
+            "pitch_range": [
+              67,
+              91
+            ]
+          },
+          {
+            "index": 2,
+            "name": "two",
+            "notes": 341,
+            "pitch_range": [
+              60,
+              84
+            ]
+          },
+          {
+            "index": 3,
+            "name": "three",
+            "notes": 364,
+            "pitch_range": [
+              43,
+              67
+            ]
+          },
+          {
+            "index": 4,
+            "name": "four",
+            "notes": 182,
+            "pitch_range": [
+              60,
+              84
+            ]
+          },
+          {
+            "index": 5,
+            "name": "five",
+            "notes": 847,
+            "pitch_range": [
+              55,
+              96
+            ]
+          },
+          {
+            "index": 6,
+            "name": "six",
+            "notes": 771,
+            "pitch_range": [
+              55,
+              84
+            ]
+          },
+          {
+            "index": 7,
+            "name": "seven",
+            "notes": 786,
+            "pitch_range": [
+              55,
+              79
+            ]
+          },
+          {
+            "index": 8,
+            "name": "eight",
+            "notes": 741,
+            "pitch_range": [
+              48,
+              72
+            ]
+          },
+          {
+            "index": 9,
+            "name": "nine",
+            "notes": 461,
+            "pitch_range": [
+              41,
+              62
+            ]
+          }
+        ],
+        "metadata_event_count": 42
+      },
+      "quality": {
+        "midi_parse": "pass",
+        "balanced_note_events": "pass",
+        "same_pitch_overlaps": 0,
+        "source_unchanged": true,
+        "performance": "Score-generated MIDI; author expressive phrasing for new themes.",
+        "listening_review": "not performed"
+      },
+      "suggested_passages": [
+        {
+          "start_quarter_beat": 0,
+          "quarter_beats": 16,
+          "purpose": "Sustained lyrical contours and supporting orchestral phrases.",
+          "snapshot": "assets/midi/mutopia/911/mp-911-opening.json"
+        }
+      ]
+    },
     {
       "id": "launch-day",
       "title": "Launch Day",
@@ -48,7 +3567,10 @@
           3,
           9
         ]
-      }
+      },
+      "rights_status": "original_example_mit",
+      "source_url": "https://github.com/leeseifer/soundfont2-music/tree/codex/initial-release/examples/launch-day"
     }
-  ]
+  ],
+  "updated_on": "2026-10-15"
 }

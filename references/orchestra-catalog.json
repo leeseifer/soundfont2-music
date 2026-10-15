@@ -1,0 +1,5698 @@
+{
+  "schema_version": 1,
+  "library": "VSCO 2 Community Edition",
+  "source": "https://github.com/sgossner/VSCO-2-CE",
+  "publisher_url": "https://versilian-studios.com/vsco-community/",
+  "commit": "6dd651d55dde97fd4028699be9d4481f26917891",
+  "license": "CC0-1.0",
+  "format": "SFZ",
+  "checked_on": "2026-10-15",
+  "renderer": "sfizz 1.2.3",
+  "qualification_scope": "Source/provenance, mapping coverage, sample integrity and actual renderer signal tests. Listening quality is pending; not a claim of professional orchestral realism.",
+  "entries": [
+    {
+      "id": "FHornMute",
+      "family": "brass",
+      "instrument": "French horn",
+      "articulation": "Mute",
+      "path": "assets/sfz/vsco-2-ce/FHornMute.sfz",
+      "license": "CC0-1.0",
+      "sha256": "54112fa5541df91a7f157929e2150ae562e116555e3b3d31827411f4ef59a076",
+      "note_range": [
+        46,
+        77
+      ],
+      "mapped_keys": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "regions": 17,
+      "unique_samples": 17,
+      "velocity_layers_per_key_range": [
+        1,
+        3
+      ],
+      "samples_per_key_range": [
+        1,
+        3
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3546,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.2,
+          "rms_dbfs": -47.88,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        4.013,
+        16.796
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "FHornStac",
+      "family": "brass",
+      "instrument": "French horn",
+      "articulation": "Stac",
+      "path": "assets/sfz/vsco-2-ce/FHornStac.sfz",
+      "license": "CC0-1.0",
+      "sha256": "cdb75af40a2fc88f0e4f311e46677e74346004f2946606fd8905323543ca9201",
+      "note_range": [
+        33,
+        77
+      ],
+      "mapped_keys": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "regions": 55,
+      "unique_samples": 54,
+      "velocity_layers_per_key_range": [
+        1,
+        5
+      ],
+      "samples_per_key_range": [
+        2,
+        6
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.8669,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -26.14,
+          "rms_dbfs": -47.9,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.661,
+        2.252
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "FHornSus",
+      "family": "brass",
+      "instrument": "French horn",
+      "articulation": "Sus",
+      "path": "assets/sfz/vsco-2-ce/FHornSus.sfz",
+      "license": "CC0-1.0",
+      "sha256": "52a8ccef8baaf0dbea4b3e528b8096c89ffb5c8aafba2b69c4c38af1d64587a5",
+      "note_range": [
+        33,
+        77
+      ],
+      "mapped_keys": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "regions": 29,
+      "unique_samples": 29,
+      "velocity_layers_per_key_range": [
+        1,
+        4
+      ],
+      "samples_per_key_range": [
+        1,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.401,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -31.93,
+          "rms_dbfs": -47.37,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        3.992,
+        15.533
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TromboneStac",
+      "family": "brass",
+      "instrument": "Trombone",
+      "articulation": "Stac",
+      "path": "assets/sfz/vsco-2-ce/TromboneStac.sfz",
+      "license": "CC0-1.0",
+      "sha256": "b3f0eb29f4106524f670dd6cf6109d633388e6cc8f613112296c7b814038a6db",
+      "note_range": [
+        34,
+        70
+      ],
+      "mapped_keys": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "regions": 55,
+      "unique_samples": 55,
+      "velocity_layers_per_key_range": [
+        4,
+        7
+      ],
+      "samples_per_key_range": [
+        7,
+        8
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.8205,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.16,
+          "rms_dbfs": -62.72,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.887,
+        2.029
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TromboneSus",
+      "family": "brass",
+      "instrument": "Trombone",
+      "articulation": "Sus",
+      "path": "assets/sfz/vsco-2-ce/TromboneSus.sfz",
+      "license": "CC0-1.0",
+      "sha256": "373f28cfaaeedcd2b21e404063fa80b3d40ee969abe0af74d4735ae10d5712bd",
+      "note_range": [
+        34,
+        65
+      ],
+      "mapped_keys": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "regions": 31,
+      "unique_samples": 31,
+      "velocity_layers_per_key_range": [
+        2,
+        3
+      ],
+      "samples_per_key_range": [
+        2,
+        3
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.2385,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -37.3,
+          "rms_dbfs": -57.18,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        4.17,
+        25.833
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TromboneVib",
+      "family": "brass",
+      "instrument": "Trombone",
+      "articulation": "Vib",
+      "path": "assets/sfz/vsco-2-ce/TromboneVib.sfz",
+      "license": "CC0-1.0",
+      "sha256": "9c77655235102365477ad91fd010726af6711e0647d71967a26352d1c4bffbac",
+      "note_range": [
+        41,
+        67
+      ],
+      "mapped_keys": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "regions": 12,
+      "unique_samples": 12,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        1,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.1456,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -45.4,
+          "rms_dbfs": -64.71,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        5.048,
+        7.435
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TrumpetHarmonMuteSus",
+      "family": "brass",
+      "instrument": "Trumpet",
+      "articulation": "HarmonMuteSus",
+      "path": "assets/sfz/vsco-2-ce/TrumpetHarmonMuteSus.sfz",
+      "license": "CC0-1.0",
+      "sha256": "91432a71a4a16e7558df10594c7844595f0937fb4aa74a4bd70d7fbd18678f46",
+      "note_range": [
+        58,
+        84
+      ],
+      "mapped_keys": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "regions": 16,
+      "unique_samples": 16,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.2152,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -34.98,
+          "rms_dbfs": -54.07,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        5.077,
+        9.117
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TrumpetStac",
+      "family": "brass",
+      "instrument": "Trumpet",
+      "articulation": "Stac",
+      "path": "assets/sfz/vsco-2-ce/TrumpetStac.sfz",
+      "license": "CC0-1.0",
+      "sha256": "089cc0a6e26a8ed2ce7967d585858cb9fa8922d0815a80ea7ca3c5f15fb56153",
+      "note_range": [
+        52,
+        84
+      ],
+      "mapped_keys": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "regions": 66,
+      "unique_samples": 66,
+      "velocity_layers_per_key_range": [
+        3,
+        3
+      ],
+      "samples_per_key_range": [
+        6,
+        6
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.9134,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -29.2,
+          "rms_dbfs": -57.55,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.753,
+        1.754
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TrumpetStraightMuteSus",
+      "family": "brass",
+      "instrument": "Trumpet",
+      "articulation": "StraightMuteSus",
+      "path": "assets/sfz/vsco-2-ce/TrumpetStraightMuteSus.sfz",
+      "license": "CC0-1.0",
+      "sha256": "d6ea554e9de89467a1a68daa0f71ce85e349c26d27c74f68aa18172c67582214",
+      "note_range": [
+        58,
+        84
+      ],
+      "mapped_keys": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "regions": 16,
+      "unique_samples": 16,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.2385,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.03,
+          "rms_dbfs": -50.77,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        6.189,
+        9.993
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TrumpetSus",
+      "family": "brass",
+      "instrument": "Trumpet",
+      "articulation": "Sus",
+      "path": "assets/sfz/vsco-2-ce/TrumpetSus.sfz",
+      "license": "CC0-1.0",
+      "sha256": "8dc5eca44087b0f0af782b3a54ee10a263520d7756f6ed497aa1e3111eea66a6",
+      "note_range": [
+        52,
+        84
+      ],
+      "mapped_keys": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "regions": 20,
+      "unique_samples": 20,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.1688,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -22.5,
+          "rms_dbfs": -42.66,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        5.56,
+        19.263
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TrumpetSusVib",
+      "family": "brass",
+      "instrument": "Trumpet",
+      "articulation": "SusVib",
+      "path": "assets/sfz/vsco-2-ce/TrumpetSusVib.sfz",
+      "license": "CC0-1.0",
+      "sha256": "4663769f31fb00e00cf0182138d809c18259e69d2065e963e1da89358eaf3567",
+      "note_range": [
+        52,
+        84
+      ],
+      "mapped_keys": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "regions": 22,
+      "unique_samples": 22,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.0991,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -37.42,
+          "rms_dbfs": -56.46,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        4.292,
+        7.409
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TubaStac",
+      "family": "brass",
+      "instrument": "Tuba",
+      "articulation": "Stac",
+      "path": "assets/sfz/vsco-2-ce/TubaStac.sfz",
+      "license": "CC0-1.0",
+      "sha256": "47ae62ea5064424535164dea68210b5ff5f60fb461b172f34f746608c64eeac4",
+      "note_range": [
+        29,
+        62
+      ],
+      "mapped_keys": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "regions": 64,
+      "unique_samples": 64,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        8,
+        8
+      ],
+      "round_robin_sequence_lengths": [
+        4
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.8437,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -35.28,
+          "rms_dbfs": -60.19,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.578,
+        1.288
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TubaSus",
+      "family": "brass",
+      "instrument": "Tuba",
+      "articulation": "Sus",
+      "path": "assets/sfz/vsco-2-ce/TubaSus.sfz",
+      "license": "CC0-1.0",
+      "sha256": "19108d85bb4fbfa21e6b754f01ae1b578f8e33cd1c0ef7b41fee9bc16a6d6ef8",
+      "note_range": [
+        29,
+        62
+      ],
+      "mapped_keys": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "regions": 23,
+      "unique_samples": 23,
+      "velocity_layers_per_key_range": [
+        1,
+        3
+      ],
+      "samples_per_key_range": [
+        1,
+        3
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.1456,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -30.91,
+          "rms_dbfs": -52.13,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        3.226,
+        17.124
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "OrganLoud",
+      "family": "keyboards",
+      "instrument": "Pipe organ",
+      "articulation": "Loud",
+      "path": "assets/sfz/vsco-2-ce/OrganLoud.sfz",
+      "license": "CC0-1.0",
+      "sha256": "cacb639e29eea3fe719057d44ef20d25b1542f4e20e225de9977b3e570485037",
+      "note_range": [
+        36,
+        96
+      ],
+      "mapped_keys": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 21,
+      "unique_samples": 21,
+      "velocity_layers_per_key_range": [
+        1,
+        1
+      ],
+      "samples_per_key_range": [
+        1,
+        1
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.2152,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -36.06,
+          "rms_dbfs": -54.28,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        11.9,
+        12.664
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "OrganQuiet",
+      "family": "keyboards",
+      "instrument": "Pipe organ",
+      "articulation": "Quiet",
+      "path": "assets/sfz/vsco-2-ce/OrganQuiet.sfz",
+      "license": "CC0-1.0",
+      "sha256": "5f3b8ab5d81ec4b69e8faea9a4d468e6968abeb7b4a7dba94b48da6e48dabe15",
+      "note_range": [
+        36,
+        96
+      ],
+      "mapped_keys": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 21,
+      "unique_samples": 21,
+      "velocity_layers_per_key_range": [
+        1,
+        1
+      ],
+      "samples_per_key_range": [
+        1,
+        1
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.192,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -40.54,
+          "rms_dbfs": -54.73,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        11.434,
+        12.977
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "UprightPiano",
+      "family": "keyboards",
+      "instrument": "Upright piano",
+      "articulation": "standard",
+      "path": "assets/sfz/vsco-2-ce/UprightPiano.sfz",
+      "license": "CC0-1.0",
+      "sha256": "9c88ebcf6ea66d5694c377e4119fd38c1875c3c211bb2e61c2e41f96a8e4364a",
+      "note_range": [
+        21,
+        108
+      ],
+      "mapped_keys": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "regions": 69,
+      "unique_samples": 69,
+      "velocity_layers_per_key_range": [
+        3,
+        3
+      ],
+      "samples_per_key_range": [
+        3,
+        3
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.8437,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.3,
+          "rms_dbfs": -54.01,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        1.424,
+        28.617
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "Glockenspiel",
+      "family": "mallets",
+      "instrument": "Glockenspiel",
+      "articulation": "standard",
+      "path": "assets/sfz/vsco-2-ce/Glockenspiel.sfz",
+      "license": "CC0-1.0",
+      "sha256": "04fc6e8ed652d919288605139c8adf04b02da8f7101145921a2f0c2bba5f3907",
+      "note_range": [
+        67,
+        96
+      ],
+      "mapped_keys": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 6,
+      "unique_samples": 6,
+      "velocity_layers_per_key_range": [
+        1,
+        1
+      ],
+      "samples_per_key_range": [
+        1,
+        1
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 12.0279,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -44.03,
+          "rms_dbfs": -72.45,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        2.791,
+        7.207
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "Marimba",
+      "family": "mallets",
+      "instrument": "Marimba",
+      "articulation": "standard",
+      "path": "assets/sfz/vsco-2-ce/Marimba.sfz",
+      "license": "CC0-1.0",
+      "sha256": "55eabdca01bd62b1da57471a3ae3da21d80c7b9197b4c4b661db61df30990bae",
+      "note_range": [
+        41,
+        96
+      ],
+      "mapped_keys": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 10,
+      "unique_samples": 10,
+      "velocity_layers_per_key_range": [
+        1,
+        1
+      ],
+      "samples_per_key_range": [
+        1,
+        1
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.9351,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -37.99,
+          "rms_dbfs": -60.87,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        1.784,
+        8.45
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TubularBells",
+      "family": "mallets",
+      "instrument": "Tubular bells",
+      "articulation": "standard",
+      "path": "assets/sfz/vsco-2-ce/TubularBells.sfz",
+      "license": "CC0-1.0",
+      "sha256": "cde6e3ca00d3a0597f0c3caeba4912221953deb5ca19801aef790ed0efac6923",
+      "note_range": [
+        60,
+        79
+      ],
+      "mapped_keys": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "regions": 4,
+      "unique_samples": 4,
+      "velocity_layers_per_key_range": [
+        1,
+        1
+      ],
+      "samples_per_key_range": [
+        1,
+        1
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 18.2741,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -23.99,
+          "rms_dbfs": -48.43,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        13.248,
+        42.175
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "Xylophone",
+      "family": "mallets",
+      "instrument": "Xylophone",
+      "articulation": "standard",
+      "path": "assets/sfz/vsco-2-ce/Xylophone.sfz",
+      "license": "CC0-1.0",
+      "sha256": "c46d614ff2277d663b373adcd99c7bf01c306369412f1c1f131abde79a9e3b09",
+      "note_range": [
+        55,
+        96
+      ],
+      "mapped_keys": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 8,
+      "unique_samples": 8,
+      "velocity_layers_per_key_range": [
+        1,
+        1
+      ],
+      "samples_per_key_range": [
+        1,
+        1
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.1688,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -22.27,
+          "rms_dbfs": -50.92,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        1.14,
+        3.621
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "GM-StylePerc",
+      "family": "percussion",
+      "instrument": "Orchestral percussion",
+      "articulation": "standard",
+      "path": "assets/sfz/vsco-2-ce/GM-StylePerc.sfz",
+      "license": "CC0-1.0",
+      "sha256": "195c22cdfae069f36651c810189d94069489d6d5ceed36eec51c7061e7452297",
+      "note_range": [
+        32,
+        104
+      ],
+      "mapped_keys": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        53,
+        54,
+        55,
+        56,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        88,
+        94,
+        101,
+        102,
+        103,
+        104
+      ],
+      "regions": 220,
+      "unique_samples": 184,
+      "velocity_layers_per_key_range": [
+        1,
+        7
+      ],
+      "samples_per_key_range": [
+        1,
+        14
+      ],
+      "round_robin_sequence_lengths": [
+        2
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 16.4165,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -23.75,
+          "rms_dbfs": -50.18,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "percussion_note_map": {
+        "32": [
+          "bassdrum_rub1_v1"
+        ],
+        "33": [
+          "bassdrum_rub2_v1"
+        ],
+        "34": [
+          "bassdrum_rub3_v1"
+        ],
+        "35": [
+          "bassdrum_rub4_v1"
+        ],
+        "36": [
+          "BDrumNewhit_v1_rr1_Sum",
+          "BDrumNewhit_v1_rr2_Sum",
+          "BDrumNewhit_v2_rr1_Sum",
+          "BDrumNewhit_v2_rr2_Sum",
+          "BDrumNewhit_v3_rr1_Sum",
+          "BDrumNewhit_v3_rr2_Sum",
+          "BDrumNewhit_v4_rr1_Sum",
+          "BDrumNewhit_v4_rr2_Sum",
+          "BDrumNewhit_v5_rr1_Sum",
+          "BDrumNewhit_v5_rr2_Sum",
+          "BDrumNewhit_v6_rr1_Sum",
+          "BDrumNewhit_v6_rr2_Sum",
+          "BDrumNewhit_v7_rr1_Sum",
+          "BDrumNewhit_v7_rr2_Sum"
+        ],
+        "37": [
+          "Snare2-taps_v1_rr1_Sum",
+          "Snare2-taps_v1_rr2_Sum",
+          "Snare2-taps_v2_rr1_Sum",
+          "Snare2-taps_v2_rr2_Sum",
+          "Snare2-taps_v3_rr1_Sum",
+          "Snare2-taps_v3_rr2_Sum",
+          "Snare2-taps_v4_rr1_Sum",
+          "Snare2-taps_v4_rr2_Sum"
+        ],
+        "38": [
+          "Snare2-HitSN_v1_rr1_Sum",
+          "Snare2-HitSN_v1_rr2_Sum",
+          "Snare2-HitSN_v3_rr1_Sum",
+          "Snare2-HitSN_v3_rr2_Sum",
+          "Snare2-HitSN_v5_rr1_Sum",
+          "Snare2-HitSN_v5_rr2_Sum",
+          "Snare2-HitSN_v7_rr1_Sum",
+          "Snare2-HitSN_v7_rr2_Sum",
+          "Snare2-HitSN_v9_rr1_Sum",
+          "Snare2-HitSN_v9_rr2_Sum"
+        ],
+        "39": [
+          "Snare2-rollSN_v1_rr1_Sum",
+          "Snare2-rollSN_v3_rr1_Sum",
+          "Snare2-rollSN_v5_rr1_Sum"
+        ],
+        "40": [
+          "Snare2-HitNS_v1_rr1_Sum",
+          "Snare2-HitNS_v1_rr2_Sum",
+          "Snare2-HitNS_v3_rr1_Sum",
+          "Snare2-HitNS_v3_rr2_Sum",
+          "Snare2-HitNS_v5_rr1_Sum",
+          "Snare2-HitNS_v5_rr2_Sum",
+          "Snare2-HitNS_v6_rr1_Sum",
+          "Snare2-HitNS_v6_rr2_Sum"
+        ],
+        "41": [
+          "Snare2-rollNS_v1_rr1_Sum",
+          "Snare2-rollNS_v3_rr1_Sum",
+          "Snare2-rollNS_v5_rr1_Sum"
+        ],
+        "42": [
+          "gongscrape_mf",
+          "gongscrape_pp"
+        ],
+        "46": [
+          "gongHit_f",
+          "gongHit_fff",
+          "gongHit_mf",
+          "gongHit_p"
+        ],
+        "47": [
+          "susCymb1-cresc-Short_v1"
+        ],
+        "48": [
+          "susCymb1-cresc-Median_v1"
+        ],
+        "49": [
+          "cymbal-crash1_ff_rr1",
+          "cymbal-crash1_ff_rr2",
+          "cymbal-crash1_mf_rr1",
+          "cymbal-crash1_mf_rr2",
+          "cymbal-crash1_mp_rr1",
+          "cymbal-crash1_mp_rr2",
+          "cymbal-crash1_pp_rr1",
+          "cymbal-crash1_pp_rr2"
+        ],
+        "50": [
+          "susCymb1-cresc-Long_v1"
+        ],
+        "51": [
+          "susCymb1-hit_f_rr1",
+          "susCymb1-hit_f_rr2",
+          "susCymb1-hit_fff_rr1",
+          "susCymb1-hit_fff_rr2",
+          "susCymb1-hit_mp_rr1",
+          "susCymb1-hit_mp_rr2",
+          "susCymb1-hit_pp_rr1",
+          "susCymb1-hit_pp_rr2"
+        ],
+        "53": [
+          "Tamb1-Shake_v1_rr1_Sum",
+          "Tamb1-Shake_v1_rr2_Sum"
+        ],
+        "54": [
+          "Tamb1-Hit_v1_rr1_Sum",
+          "Tamb1-Hit_v1_rr2_Sum",
+          "Tamb1-Hit_v2_rr1_Sum",
+          "Tamb1-Hit_v2_rr2_Sum"
+        ],
+        "55": [
+          "Tamb1-Roll_v1_rr1_Sum",
+          "Tamb1-Roll_v2_rr1_Sum",
+          "Tamb1-Roll_v3_rr1_Sum"
+        ],
+        "56": [
+          "Cowbell1_Hit_v1_rr1_Sum",
+          "Cowbell1_Hit_v1_rr2_Sum",
+          "Cowbell1_Hit_v2_rr1_Sum",
+          "Cowbell1_Hit_v2_rr2_Sum",
+          "Cowbell1_Hit_v3_rr1_Sum",
+          "Cowbell1_Hit_v3_rr2_Sum",
+          "Cowbell1_Hit_v4_rr1_Sum",
+          "Cowbell1_Hit_v4_rr2_Sum"
+        ],
+        "59": [
+          "susCymb1-hitstick_f_rr1",
+          "susCymb1-hitstick_f_rr2",
+          "susCymb1-hitstick_fff_rr1",
+          "susCymb1-hitstick_fff_rr2",
+          "susCymb1-hitstick_mp_rr1",
+          "susCymb1-hitstick_mp_rr2",
+          "susCymb1-hitstick_pp_rr1",
+          "susCymb1-hitstick_pp_rr2"
+        ],
+        "60": [
+          "Quinto-Tap1_v1_rr1_Sum",
+          "Quinto-Tap1_v1_rr2_Sum"
+        ],
+        "61": [
+          "Quinto-HitN_v1_rr1_Sum",
+          "Quinto-HitN_v1_rr2_Sum",
+          "Quinto-HitN_v2_rr1_Sum",
+          "Quinto-HitN_v2_rr2_Sum",
+          "Quinto-HitN_v3_rr1_Sum",
+          "Quinto-HitN_v3_rr2_Sum"
+        ],
+        "62": [
+          "Conga-Tap1_v1_rr1_Sum",
+          "Conga-Tap1_v1_rr2_Sum"
+        ],
+        "63": [
+          "Conga-HitN_v1_rr1_Sum",
+          "Conga-HitN_v1_rr2_Sum",
+          "Conga-HitN_v2_rr1_Sum",
+          "Conga-HitN_v2_rr2_Sum",
+          "Conga-HitN_v3_rr1_Sum",
+          "Conga-HitN_v3_rr2_Sum"
+        ],
+        "64": [
+          "Tumba-Tap1_v1_rr1_Sum",
+          "Tumba-Tap1_v1_rr2_Sum"
+        ],
+        "65": [
+          "Tumba-HitN_v1_rr1_Sum",
+          "Tumba-HitN_v1_rr2_Sum",
+          "Tumba-HitN_v2_rr1_Sum",
+          "Tumba-HitN_v2_rr2_Sum",
+          "Tumba-HitN_v3_rr1_Sum",
+          "Tumba-HitN_v3_rr2_Sum"
+        ],
+        "67": [
+          "Anvil_Hit1_v1_Sum",
+          "Anvil_Hit1_v2_Sum",
+          "Anvil_Hit1_v3_Sum"
+        ],
+        "68": [
+          "BrakeDrum1_Hammer_v1_Sum",
+          "BrakeDrum1_Hammer_v2_Sum",
+          "BrakeDrum1_Hammer_v3_Sum"
+        ],
+        "69": [
+          "Ratchet1-Crank_v1_rr1_Sum",
+          "Ratchet1-Crank_v1_rr2_Sum"
+        ],
+        "70": [
+          "Ratchet1-Fast_v1_rr1_Sum"
+        ],
+        "71": [
+          "Ratchet1-Slow_v1_rr1_Sum"
+        ],
+        "72": [
+          "Guiro-Hit_v1_rr1_Sum",
+          "Guiro-Hit_v1_rr2_Sum"
+        ],
+        "75": [
+          "Claves1_Hit_v1_rr1_Sum",
+          "Claves1_Hit_v1_rr2_Sum",
+          "Claves1_Hit_v2_rr1_Sum",
+          "Claves1_Hit_v2_rr2_Sum",
+          "Claves1_Hit_v3_rr1_Sum",
+          "Claves1_Hit_v3_rr2_Sum"
+        ],
+        "76": [
+          "LogDrumHi_MedM_v1_rr1_Sum",
+          "LogDrumHi_MedM_v1_rr2_Sum",
+          "LogDrumHi_MedM_v2_rr1_Sum",
+          "LogDrumHi_MedM_v2_rr2_Sum",
+          "LogDrumHi_MedM_v3_rr1_Sum",
+          "LogDrumHi_MedM_v3_rr2_Sum"
+        ],
+        "77": [
+          "LogDrumLo_MedM_v1_rr1_Sum",
+          "LogDrumLo_MedM_v1_rr2_Sum",
+          "LogDrumLo_MedM_v2_rr1_Sum",
+          "LogDrumLo_MedM_v2_rr2_Sum",
+          "LogDrumLo_MedM_v3_rr1_Sum",
+          "LogDrumLo_MedM_v3_rr2_Sum"
+        ],
+        "78": [
+          "Triangle3-HitFM_v1_rr1_Sum",
+          "Triangle3-HitFM_v1_rr2_Sum",
+          "Triangle3-HitFM_v2_rr1_Sum",
+          "Triangle3-HitFM_v2_rr2_Sum"
+        ],
+        "79": [
+          "Triangle3-Hit_v1_rr1_Sum",
+          "Triangle3-Hit_v1_rr2_Sum",
+          "Triangle3-Hit_v2_rr1_Sum",
+          "Triangle3-Hit_v2_rr2_Sum"
+        ],
+        "80": [
+          "Triangle6-HitFM_v1_rr1_Sum",
+          "Triangle6-HitFM_v1_rr2_Sum",
+          "Triangle6-HitFM_v2_rr1_Sum",
+          "Triangle6-HitFM_v2_rr2_Sum"
+        ],
+        "81": [
+          "Triangle6-Hit_v1_rr1_Sum",
+          "Triangle6-Hit_v1_rr2_Sum",
+          "Triangle6-Hit_v2_rr1_Sum",
+          "Triangle6-Hit_v2_rr2_Sum"
+        ],
+        "82": [
+          "Sleighbells_Hit_v1_rr1_Mid",
+          "Sleighbells_Hit_v1_rr2_Mid"
+        ],
+        "83": [
+          "BellTree_Stroke1_v1_Sum"
+        ],
+        "84": [
+          "BellTree_Stroke2_v1_Sum"
+        ],
+        "85": [
+          "BellTree_Stroke3_v1_Sum"
+        ],
+        "86": [
+          "BellTree_Stroke4_v1_Sum"
+        ],
+        "88": [
+          "alien1_ff",
+          "alien1_pp"
+        ],
+        "94": [
+          "vibraring_v1_rr1",
+          "vibraring_v1_rr2"
+        ],
+        "101": [
+          "susCymb1-bow-1"
+        ],
+        "102": [
+          "susCymb1-bow-2"
+        ],
+        "103": [
+          "susCymb1-bow-3"
+        ],
+        "104": [
+          "susCymb1-bow-4"
+        ]
+      },
+      "sample_duration_seconds_range": [
+        0.397,
+        34.004
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "Timpani",
+      "family": "percussion",
+      "instrument": "Timpani",
+      "articulation": "standard",
+      "path": "assets/sfz/vsco-2-ce/Timpani.sfz",
+      "license": "CC0-1.0",
+      "sha256": "8debc0fa6da4344abb48b625cbaaa85ffcf3a7d0a946fe57ddbb16a49aab9fa5",
+      "note_range": [
+        36,
+        60
+      ],
+      "mapped_keys": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "regions": 28,
+      "unique_samples": 28,
+      "velocity_layers_per_key_range": [
+        2,
+        3
+      ],
+      "samples_per_key_range": [
+        4,
+        6
+      ],
+      "round_robin_sequence_lengths": [
+        2
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 12.2601,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.92,
+          "rms_dbfs": -60.45,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        1.486,
+        11.488
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "TimpaniRolls",
+      "family": "percussion",
+      "instrument": "Timpani",
+      "articulation": "Rolls",
+      "path": "assets/sfz/vsco-2-ce/TimpaniRolls.sfz",
+      "license": "CC0-1.0",
+      "sha256": "2f24f639d14f4690d92bac700655e6bc5a17ca991256bbda44849abd154f0726",
+      "note_range": [
+        36,
+        60
+      ],
+      "mapped_keys": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "regions": 10,
+      "unique_samples": 10,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.4939,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -31.15,
+          "rms_dbfs": -53.14,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        16.821,
+        29.458
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "Harp",
+      "family": "plucked",
+      "instrument": "Concert harp",
+      "articulation": "standard",
+      "path": "assets/sfz/vsco-2-ce/Harp.sfz",
+      "license": "CC0-1.0",
+      "sha256": "25b553eb756a94f833b1cc1239fe3e6dced3ebc83335bac95d05c951589f7da9",
+      "note_range": [
+        28,
+        101
+      ],
+      "mapped_keys": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "regions": 23,
+      "unique_samples": 23,
+      "velocity_layers_per_key_range": [
+        1,
+        1
+      ],
+      "samples_per_key_range": [
+        1,
+        1
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 16.254,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -35.13,
+          "rms_dbfs": -57.19,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        1.885,
+        22.682
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "CelloEnsPizz",
+      "family": "strings",
+      "instrument": "Cello section",
+      "articulation": "Pizz",
+      "path": "assets/sfz/vsco-2-ce/CelloEnsPizz.sfz",
+      "license": "CC0-1.0",
+      "sha256": "84e586f7518b99c11da5efddb321a9ea4b9edc4149b96f3e9621f4c7e9fc3cca",
+      "note_range": [
+        36,
+        77
+      ],
+      "mapped_keys": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "regions": 52,
+      "unique_samples": 52,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        4,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        2
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.8422,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.28,
+          "rms_dbfs": -54.87,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.873,
+        3.999
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "CelloEnsSpic",
+      "family": "strings",
+      "instrument": "Cello section",
+      "articulation": "Spic",
+      "path": "assets/sfz/vsco-2-ce/CelloEnsSpic.sfz",
+      "license": "CC0-1.0",
+      "sha256": "00d1374a186802d63ed19173d16b48f30d5acd04f180a9439da2c24bf0029535",
+      "note_range": [
+        36,
+        77
+      ],
+      "mapped_keys": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "regions": 52,
+      "unique_samples": 52,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        4,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        2
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.1456,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -31.49,
+          "rms_dbfs": -54.83,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.773,
+        3.502
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "CelloEnsSusVib",
+      "family": "strings",
+      "instrument": "Cello section",
+      "articulation": "SusVib",
+      "path": "assets/sfz/vsco-2-ce/CelloEnsSusVib.sfz",
+      "license": "CC0-1.0",
+      "sha256": "276352639dda425dd12a4fdb3acdf545867fdb0ff4f89876319f4ec3cf12a19f",
+      "note_range": [
+        36,
+        77
+      ],
+      "mapped_keys": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "regions": 27,
+      "unique_samples": 27,
+      "velocity_layers_per_key_range": [
+        2,
+        3
+      ],
+      "samples_per_key_range": [
+        2,
+        3
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3778,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -28.03,
+          "rms_dbfs": -48.03,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        6.387,
+        12.747
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "CelloEnsTrem",
+      "family": "strings",
+      "instrument": "Cello section",
+      "articulation": "Trem",
+      "path": "assets/sfz/vsco-2-ce/CelloEnsTrem.sfz",
+      "license": "CC0-1.0",
+      "sha256": "88a6ba63a3ecf3c6daa16e0599e4516ae45a7f1bbe8f9ea9799cdea7a88f8f0a",
+      "note_range": [
+        36,
+        77
+      ],
+      "mapped_keys": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "regions": 25,
+      "unique_samples": 25,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        1,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3546,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -21.78,
+          "rms_dbfs": -44.47,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        6.605,
+        11.183
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ContrabassPizz",
+      "family": "strings",
+      "instrument": "Double bass",
+      "articulation": "Pizz",
+      "path": "assets/sfz/vsco-2-ce/ContrabassPizz.sfz",
+      "license": "CC0-1.0",
+      "sha256": "8559b4a439420adc035cb6f78bc15c6d1a9ca8d25275496bfa8f4f9d8b93a314",
+      "note_range": [
+        24,
+        60
+      ],
+      "mapped_keys": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "regions": 40,
+      "unique_samples": 40,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.5403,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -39.23,
+          "rms_dbfs": -58.85,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.961,
+        6.024
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ContrabassSpic",
+      "family": "strings",
+      "instrument": "Double bass",
+      "articulation": "Spic",
+      "path": "assets/sfz/vsco-2-ce/ContrabassSpic.sfz",
+      "license": "CC0-1.0",
+      "sha256": "319e22c472c6954a7cfc03633af38bd8e88dc45fca7ff951fcfab838a75f3dce",
+      "note_range": [
+        24,
+        60
+      ],
+      "mapped_keys": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "regions": 42,
+      "unique_samples": 42,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3313,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -35.63,
+          "rms_dbfs": -56.45,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        1.103,
+        3.283
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ContrabassSusNV",
+      "family": "strings",
+      "instrument": "Double bass",
+      "articulation": "SusNV",
+      "path": "assets/sfz/vsco-2-ce/ContrabassSusNV.sfz",
+      "license": "CC0-1.0",
+      "sha256": "137172b02f0357f059816bd0ab197c38a5c06659cfc6e64fec11b35abac54fbb",
+      "note_range": [
+        24,
+        60
+      ],
+      "mapped_keys": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "regions": 28,
+      "unique_samples": 28,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3546,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -41.15,
+          "rms_dbfs": -56.01,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        6.591,
+        18.195
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ContrabassSusVB",
+      "family": "strings",
+      "instrument": "Double bass",
+      "articulation": "SusVB",
+      "path": "assets/sfz/vsco-2-ce/ContrabassSusVB.sfz",
+      "license": "CC0-1.0",
+      "sha256": "f99fd524c8558f3da235b240c40ed9854a1bbf4fa299cb0ec44b5b32c967291f",
+      "note_range": [
+        24,
+        60
+      ],
+      "mapped_keys": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "regions": 26,
+      "unique_samples": 26,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.401,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -38.76,
+          "rms_dbfs": -52.64,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        6.539,
+        17.332
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ContrabassTrem",
+      "family": "strings",
+      "instrument": "Double bass",
+      "articulation": "Trem",
+      "path": "assets/sfz/vsco-2-ce/ContrabassTrem.sfz",
+      "license": "CC0-1.0",
+      "sha256": "4afd9d13b74fe60830e9b701825d914c87d4d9dc17f99ef8b502ec89f3147908",
+      "note_range": [
+        24,
+        60
+      ],
+      "mapped_keys": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "regions": 16,
+      "unique_samples": 16,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.401,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -26.24,
+          "rms_dbfs": -44.11,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        6.11,
+        10.639
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "SViolinPizz",
+      "family": "strings",
+      "instrument": "Solo violin",
+      "articulation": "Pizz",
+      "path": "assets/sfz/vsco-2-ce/SViolinPizz.sfz",
+      "license": "CC0-1.0",
+      "sha256": "bb4c2fe7892fea7d4081a52805f4f08902dda8d7c27fa4c18af7987a1cb3532c",
+      "note_range": [
+        55,
+        96
+      ],
+      "mapped_keys": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 44,
+      "unique_samples": 44,
+      "velocity_layers_per_key_range": [
+        1,
+        3
+      ],
+      "samples_per_key_range": [
+        1,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.1456,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.36,
+          "rms_dbfs": -57.64,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.751,
+        4.839
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "SViolinSpic",
+      "family": "strings",
+      "instrument": "Solo violin",
+      "articulation": "Spic",
+      "path": "assets/sfz/vsco-2-ce/SViolinSpic.sfz",
+      "license": "CC0-1.0",
+      "sha256": "d427568b0998f193be2145182d732ccf8507a75d8f933c1a47393e41107cd9c1",
+      "note_range": [
+        55,
+        96
+      ],
+      "mapped_keys": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 60,
+      "unique_samples": 60,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        4,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        2
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.9134,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -33.24,
+          "rms_dbfs": -60.48,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.81,
+        2.221
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "SViolinTrem",
+      "family": "strings",
+      "instrument": "Solo violin",
+      "articulation": "Trem",
+      "path": "assets/sfz/vsco-2-ce/SViolinTrem.sfz",
+      "license": "CC0-1.0",
+      "sha256": "d82634898428a3174723c33b4e28d4fd784a38e4a56959c8f55059719756757f",
+      "note_range": [
+        55,
+        96
+      ],
+      "mapped_keys": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 27,
+      "unique_samples": 27,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        1,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3313,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -25.42,
+          "rms_dbfs": -47.51,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        5.606,
+        9.447
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "SViolinVib",
+      "family": "strings",
+      "instrument": "Solo violin",
+      "articulation": "Vib",
+      "path": "assets/sfz/vsco-2-ce/SViolinVib.sfz",
+      "license": "CC0-1.0",
+      "sha256": "a2ca3611463547ac9371aa9d13a693af9cd10804f9232d2c602d65937387a992",
+      "note_range": [
+        55,
+        96
+      ],
+      "mapped_keys": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 30,
+      "unique_samples": 30,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3546,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.91,
+          "rms_dbfs": -53.26,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        11.263,
+        17.554
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ViolaEnsPizz",
+      "family": "strings",
+      "instrument": "Viola section",
+      "articulation": "Pizz",
+      "path": "assets/sfz/vsco-2-ce/ViolaEnsPizz.sfz",
+      "license": "CC0-1.0",
+      "sha256": "c175ad0189d09e0e26670796da7d28adba5a569ac0edc1ef96fc6f11268db4a9",
+      "note_range": [
+        48,
+        86
+      ],
+      "mapped_keys": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "regions": 46,
+      "unique_samples": 46,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.2152,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -27.86,
+          "rms_dbfs": -52.92,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.282,
+        3.366
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ViolaEnsSpic",
+      "family": "strings",
+      "instrument": "Viola section",
+      "articulation": "Spic",
+      "path": "assets/sfz/vsco-2-ce/ViolaEnsSpic.sfz",
+      "license": "CC0-1.0",
+      "sha256": "54d8e42e321e1fb594da144cae450c1c34820abc50fd91976c156f4d8200167a",
+      "note_range": [
+        48,
+        86
+      ],
+      "mapped_keys": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "regions": 48,
+      "unique_samples": 48,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        4,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        2
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.9598,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -26.69,
+          "rms_dbfs": -53.24,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.56,
+        3.102
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ViolaEnsSusVib",
+      "family": "strings",
+      "instrument": "Viola section",
+      "articulation": "SusVib",
+      "path": "assets/sfz/vsco-2-ce/ViolaEnsSusVib.sfz",
+      "license": "CC0-1.0",
+      "sha256": "d62dc6b6bfa83d4ebe49a44f6f1337d0621a32d7f10c699e26fc98720a640871",
+      "note_range": [
+        48,
+        86
+      ],
+      "mapped_keys": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "regions": 26,
+      "unique_samples": 26,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.61,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -23.66,
+          "rms_dbfs": -42.86,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        7.565,
+        13.746
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ViolaEnsTrem",
+      "family": "strings",
+      "instrument": "Viola section",
+      "articulation": "Trem",
+      "path": "assets/sfz/vsco-2-ce/ViolaEnsTrem.sfz",
+      "license": "CC0-1.0",
+      "sha256": "97a1c8b2d5fcffe70c678334a2154e4b40bb44e2a294e7b1c993a8111fc8e69e",
+      "note_range": [
+        48,
+        86
+      ],
+      "mapped_keys": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "regions": 24,
+      "unique_samples": 24,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.5171,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -25.1,
+          "rms_dbfs": -47.98,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        7.371,
+        15.572
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ViolinEnsPizz",
+      "family": "strings",
+      "instrument": "Violin section",
+      "articulation": "Pizz",
+      "path": "assets/sfz/vsco-2-ce/ViolinEnsPizz.sfz",
+      "license": "CC0-1.0",
+      "sha256": "c94b1129e5a8c7e7f7a8e556f6d7c491dbe88875cc2080a0fd2794eb77f5b733",
+      "note_range": [
+        55,
+        86
+      ],
+      "mapped_keys": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "regions": 44,
+      "unique_samples": 44,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        4,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.9134,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -24.38,
+          "rms_dbfs": -50.44,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.44,
+        3.016
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ViolinEnsSpic",
+      "family": "strings",
+      "instrument": "Violin section",
+      "articulation": "Spic",
+      "path": "assets/sfz/vsco-2-ce/ViolinEnsSpic.sfz",
+      "license": "CC0-1.0",
+      "sha256": "3616554873bf3e0b6c6af0a4a593d519219d0774ab03af323daf9e70a098a847",
+      "note_range": [
+        55,
+        86
+      ],
+      "mapped_keys": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "regions": 44,
+      "unique_samples": 44,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        4,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        2
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.7508,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -27.81,
+          "rms_dbfs": -50.96,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.497,
+        3.208
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ViolinEnsSusVib",
+      "family": "strings",
+      "instrument": "Violin section",
+      "articulation": "SusVib",
+      "path": "assets/sfz/vsco-2-ce/ViolinEnsSusVib.sfz",
+      "license": "CC0-1.0",
+      "sha256": "4591e212cccf1cbcff0c78cf8429a8221bb0820b70cb7c8dd6685f470ace4eaa",
+      "note_range": [
+        55,
+        86
+      ],
+      "mapped_keys": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "regions": 22,
+      "unique_samples": 22,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.401,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -30.68,
+          "rms_dbfs": -51.07,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        8.988,
+        15.2
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ViolinEnsTrem",
+      "family": "strings",
+      "instrument": "Violin section",
+      "articulation": "Trem",
+      "path": "assets/sfz/vsco-2-ce/ViolinEnsTrem.sfz",
+      "license": "CC0-1.0",
+      "sha256": "e41e15d50f77bd44375c0954bec5a8abd9507aaf58955829381a65cb94db571c",
+      "note_range": [
+        55,
+        86
+      ],
+      "mapped_keys": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "regions": 21,
+      "unique_samples": 21,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        1,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3546,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -28.97,
+          "rms_dbfs": -52.45,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        7.565,
+        13.13
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "BassoonStac",
+      "family": "woodwinds",
+      "instrument": "Bassoon",
+      "articulation": "Stac",
+      "path": "assets/sfz/vsco-2-ce/BassoonStac.sfz",
+      "license": "CC0-1.0",
+      "sha256": "2a6111bc70bdae07f3e7c1baac6e3befac67fb63c66d6b9bc710d2ee50ac3f99",
+      "note_range": [
+        34,
+        72
+      ],
+      "mapped_keys": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "regions": 46,
+      "unique_samples": 46,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        4
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.7276,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -33.92,
+          "rms_dbfs": -56.78,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.554,
+        0.816
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "BassoonSus",
+      "family": "woodwinds",
+      "instrument": "Bassoon",
+      "articulation": "Sus",
+      "path": "assets/sfz/vsco-2-ce/BassoonSus.sfz",
+      "license": "CC0-1.0",
+      "sha256": "9702fc7cc52aaa01ae283a98e1d944920069657fec091590c9d42b6f3fa6fa2a",
+      "note_range": [
+        34,
+        75
+      ],
+      "mapped_keys": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "regions": 25,
+      "unique_samples": 25,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        1,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3546,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -34.32,
+          "rms_dbfs": -51.19,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        5.971,
+        11.165
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "BassoonVib",
+      "family": "woodwinds",
+      "instrument": "Bassoon",
+      "articulation": "Vib",
+      "path": "assets/sfz/vsco-2-ce/BassoonVib.sfz",
+      "license": "CC0-1.0",
+      "sha256": "7a77e7aff18418ba199f9cd250c7e44e9ff7ab902961961483e1ad55800d1c3f",
+      "note_range": [
+        36,
+        72
+      ],
+      "mapped_keys": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "regions": 21,
+      "unique_samples": 21,
+      "velocity_layers_per_key_range": [
+        1,
+        3
+      ],
+      "samples_per_key_range": [
+        1,
+        3
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3546,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.38,
+          "rms_dbfs": -46.97,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        4.785,
+        10.709
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ClarinetStac",
+      "family": "woodwinds",
+      "instrument": "Clarinet",
+      "articulation": "Stac",
+      "path": "assets/sfz/vsco-2-ce/ClarinetStac.sfz",
+      "license": "CC0-1.0",
+      "sha256": "e3657824a241cfc55b9bac03e359da24068498955597cf8dbc2684330b3ddfed",
+      "note_range": [
+        50,
+        89
+      ],
+      "mapped_keys": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "regions": 64,
+      "unique_samples": 64,
+      "velocity_layers_per_key_range": [
+        2,
+        3
+      ],
+      "samples_per_key_range": [
+        4,
+        6
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.658,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.29,
+          "rms_dbfs": -56.26,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.449,
+        0.825
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "ClarinetSus",
+      "family": "woodwinds",
+      "instrument": "Clarinet",
+      "articulation": "Sus",
+      "path": "assets/sfz/vsco-2-ce/ClarinetSus.sfz",
+      "license": "CC0-1.0",
+      "sha256": "7e38b51122a750df7f2678f6f4ae39a41b35743e500577da1ca0f53662485ce5",
+      "note_range": [
+        50,
+        90
+      ],
+      "mapped_keys": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "regions": 33,
+      "unique_samples": 33,
+      "velocity_layers_per_key_range": [
+        3,
+        3
+      ],
+      "samples_per_key_range": [
+        3,
+        3
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3546,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -31.16,
+          "rms_dbfs": -45.43,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        4.572,
+        13.455
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "FluteExpVib",
+      "family": "woodwinds",
+      "instrument": "Flute",
+      "articulation": "ExpVib",
+      "path": "assets/sfz/vsco-2-ce/FluteExpVib.sfz",
+      "license": "CC0-1.0",
+      "sha256": "b0956b3d25498ef9083541999da408f569758d0dbd5f8b759639423334ba36f3",
+      "note_range": [
+        60,
+        96
+      ],
+      "mapped_keys": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 14,
+      "unique_samples": 14,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        1,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3546,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -34.59,
+          "rms_dbfs": -52.73,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        4.121,
+        12.402
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "FluteStac",
+      "family": "woodwinds",
+      "instrument": "Flute",
+      "articulation": "Stac",
+      "path": "assets/sfz/vsco-2-ce/FluteStac.sfz",
+      "license": "CC0-1.0",
+      "sha256": "8036c112cd3a1614a40e7980bd8c8249ce18bc8df2e4fd8d3bed961b602c10fa",
+      "note_range": [
+        65,
+        96
+      ],
+      "mapped_keys": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 48,
+      "unique_samples": 48,
+      "velocity_layers_per_key_range": [
+        2,
+        4
+      ],
+      "samples_per_key_range": [
+        4,
+        8
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.6812,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -33.96,
+          "rms_dbfs": -57.39,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.601,
+        1.27
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "FluteSusNV",
+      "family": "woodwinds",
+      "instrument": "Flute",
+      "articulation": "SusNV",
+      "path": "assets/sfz/vsco-2-ce/FluteSusNV.sfz",
+      "license": "CC0-1.0",
+      "sha256": "0c3e15abe738778c38f93aa69e1d994e3b6e32b68ab7977b9138c4e079f99661",
+      "note_range": [
+        60,
+        96
+      ],
+      "mapped_keys": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 19,
+      "unique_samples": 19,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        1,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.401,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -29.36,
+          "rms_dbfs": -47.51,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        6.113,
+        13.077
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "FluteSusVib",
+      "family": "woodwinds",
+      "instrument": "Flute",
+      "articulation": "SusVib",
+      "path": "assets/sfz/vsco-2-ce/FluteSusVib.sfz",
+      "license": "CC0-1.0",
+      "sha256": "26b0dedaa483b6f7f4201d144673b26ab1d0e4585493a97815d03904319a0734",
+      "note_range": [
+        60,
+        96
+      ],
+      "mapped_keys": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "regions": 13,
+      "unique_samples": 13,
+      "velocity_layers_per_key_range": [
+        1,
+        2
+      ],
+      "samples_per_key_range": [
+        1,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.3546,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -34.1,
+          "rms_dbfs": -50.75,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        4.76,
+        10.587
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "OboeStac",
+      "family": "woodwinds",
+      "instrument": "Oboe",
+      "articulation": "Stac",
+      "path": "assets/sfz/vsco-2-ce/OboeStac.sfz",
+      "license": "CC0-1.0",
+      "sha256": "c31fcd5cb21bcfd797718f8e737bf137ed9d156f6337e673d5e4b7be91d2adad",
+      "note_range": [
+        58,
+        89
+      ],
+      "mapped_keys": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "regions": 52,
+      "unique_samples": 51,
+      "velocity_layers_per_key_range": [
+        2,
+        3
+      ],
+      "samples_per_key_range": [
+        3,
+        6
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": true,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.658,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -35.6,
+          "rms_dbfs": -54.05,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.511,
+        1.015
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "OboeSusNV",
+      "family": "woodwinds",
+      "instrument": "Oboe",
+      "articulation": "SusNV",
+      "path": "assets/sfz/vsco-2-ce/OboeSusNV.sfz",
+      "license": "CC0-1.0",
+      "sha256": "d3963e2b65ff608ee3728666ac0764fd680a6c51339c8ee858f426c5a94e51ee",
+      "note_range": [
+        58,
+        89
+      ],
+      "mapped_keys": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "regions": 18,
+      "unique_samples": 18,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.2152,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -43.62,
+          "rms_dbfs": -57.76,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        8.233,
+        27.114
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "OboeSusVib",
+      "family": "woodwinds",
+      "instrument": "Oboe",
+      "articulation": "SusVib",
+      "path": "assets/sfz/vsco-2-ce/OboeSusVib.sfz",
+      "license": "CC0-1.0",
+      "sha256": "ce1241e31c308283773c0f53c63f35b9321bef88b2a444ea2e6940dbbb1b77dd",
+      "note_range": [
+        58,
+        89
+      ],
+      "mapped_keys": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "regions": 18,
+      "unique_samples": 18,
+      "velocity_layers_per_key_range": [
+        2,
+        2
+      ],
+      "samples_per_key_range": [
+        2,
+        2
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.2385,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -39.5,
+          "rms_dbfs": -56.57,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        6.47,
+        11.126
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "PiccoloStac",
+      "family": "woodwinds",
+      "instrument": "Piccolo",
+      "articulation": "Stac",
+      "path": "assets/sfz/vsco-2-ce/PiccoloStac.sfz",
+      "license": "CC0-1.0",
+      "sha256": "967ae74e7cb6a3f6ed40bacd6d2c9737b77c69b66307c1b5569e5a773734b589",
+      "note_range": [
+        70,
+        94
+      ],
+      "mapped_keys": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "regions": 5,
+      "unique_samples": 5,
+      "velocity_layers_per_key_range": [
+        1,
+        1
+      ],
+      "samples_per_key_range": [
+        1,
+        1
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 10.658,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -23.41,
+          "rms_dbfs": -46.7,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        0.428,
+        0.544
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    },
+    {
+      "id": "PiccoloSus",
+      "family": "woodwinds",
+      "instrument": "Piccolo",
+      "articulation": "Sus",
+      "path": "assets/sfz/vsco-2-ce/PiccoloSus.sfz",
+      "license": "CC0-1.0",
+      "sha256": "a52f886b05285275a1003e05de8ddab9249d3fbc6eec66e332a140af740891d3",
+      "note_range": [
+        67,
+        91
+      ],
+      "mapped_keys": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "regions": 5,
+      "unique_samples": 5,
+      "velocity_layers_per_key_range": [
+        1,
+        1
+      ],
+      "samples_per_key_range": [
+        1,
+        1
+      ],
+      "round_robin_sequence_lengths": [
+        1
+      ],
+      "random_alternates": false,
+      "controllers": "Engine volume CC7 and expression CC11; no mapped sampled legato, pedal releases or modwheel timbre crossfade claimed.",
+      "qualification": {
+        "status": "technical_pass",
+        "samples_present": true,
+        "wav_headers_valid": true,
+        "key_velocity_coverage": "pass",
+        "test_cc7": 64,
+        "test_cc11": 100,
+        "audio": {
+          "seconds": 11.1688,
+          "sample_rate": 44100,
+          "channels": 2,
+          "peak_dbfs": -32.29,
+          "rms_dbfs": -47.65,
+          "clipped_samples": 0
+        },
+        "warnings": [],
+        "listening_review": "pending"
+      },
+      "sample_duration_seconds_range": [
+        7.373,
+        12.506
+      ],
+      "sample_looping": "No loop opcodes in installed mappings; finite recorded notes."
+    }
+  ],
+  "excluded": []
+}
